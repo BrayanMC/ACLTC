@@ -27,8 +27,8 @@ class SignInController: BaseViewController, Storyboarded {
     
     private func initViews() {
         view.applyGradient()
-        emailACLTextField.displayView(id: 1, eventsDelegate: self, placeholder: "SIGN_IN_EMAIL_FIELD_PLACEHOLDER".localized, isCounterHidden: true, textFieldType: .Email())
-        passwordACLTextField.displayView(id: 2, eventsDelegate: self, placeholder: "SIGN_IN_PASSWORD_FIELD_PLACEHOLDER".localized, rightIcon: ImageManager.shared.eyeClosed, rightIconSelected: ImageManager.shared.eye, isCounterHidden: true, keyboardType: .Default, textFieldType: .Password(minCharacters: GlobalConstants.minPasswordCharacters))
+        emailACLTextField.displayView(id: 1, placeholder: "SIGN_IN_EMAIL_FIELD_PLACEHOLDER".localized, isCounterHidden: true, textFieldType: .Email())
+        passwordACLTextField.displayView(id: 2, placeholder: "SIGN_IN_PASSWORD_FIELD_PLACEHOLDER".localized, rightIcon: ImageManager.shared.eyeClosed, rightIconSelected: ImageManager.shared.eye, isCounterHidden: true, keyboardType: .Default, textFieldType: .Password(minCharacters: GlobalConstants.minPasswordCharacters))
         signUpLabel
             .attributedText = "SIGN_IN_SIGN_IN_HERE_TEXT".localized
             .addAttributeText(text: signUpText, color: ColorManager.shared.red, font: .body1Bold, isUnderline: true)
@@ -95,6 +95,14 @@ class SignInController: BaseViewController, Storyboarded {
             }
         }
         
+        viewModel.goToRegister.bind { [weak self] result in
+            guard self != nil else { return }
+            guard let _result = result else { return }
+            if (_result) {
+                self?.coordinator?.goToSignUp()
+            }
+        }
+        
         viewModel.logInSuccess.bind { [weak self] result in
             guard self != nil else { return }
             guard let _result = result else { return }
@@ -129,7 +137,7 @@ class SignInController: BaseViewController, Storyboarded {
         guard let text = signUpLabel.text else { return }
         let conditionsRange = (text as NSString).range(of: signUpText)
         if gesture.didTapAttributedTextInLabel(label: signUpLabel, inRange: conditionsRange) {
-            debugPrint("sign up label tapped ✅")
+            coordinator?.goToSignUp()
         }
     }
     
@@ -137,17 +145,5 @@ class SignInController: BaseViewController, Storyboarded {
         viewModel.validateEmail(emailACLTextField.getTextValue())
         viewModel.validatePassword(passwordACLTextField.getTextValue())
         validateForm()
-    }
-}
-
-extension SignInController: ACLTextFieldEventsProtocol {
-    
-    func editingDidBegin(id: Int, _ text: String) {
-    }
-    
-    func editingDidEnd(id: Int, _ text: String) {
-    }
-    
-    func editingChanged(id: Int, _ text: String) {
     }
 }

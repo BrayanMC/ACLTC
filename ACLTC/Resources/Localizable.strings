@@ -42,3 +42,16 @@
 
 "FILTERS_START_DATE" = "Fecha de inicio";
 "FILTERS_END_DATE" = "Fecha de fin";
+
+// MARK: - SIGN UP
+
+"SIGN_UP_EMAIL_FIELD_PLACEHOLDER" = "Correo electrónico";
+"SIGN_UP_NAMES_FIELD_PLACEHOLDER" = "Nombres";
+"SIGN_UP_LAST_NAMES_FIELD_PLACEHOLDER" = "Apellidos";
+"SIGN_UP_PASSWORD_FIELD_PLACEHOLDER" = "Contraseña";
+"SIGN_UP_SIGN_UP_HERE_TEXT" = "¿Ya tienes cuenta? Inicia aquí";
+"SIGN_UP_EMAIL_FIELD_EMPTY" = "Ingresa un correo electrónico";
+"SIGN_UP_EMAIL_FIELD_INCORRECT_FORMAT" = "Ingresa un correo electrónico correcto";
+"SIGN_UP_NAME_FIELD_EMPTY" = "Ingresa tu(s) nombre(s)";
+"SIGN_UP_LAST_NAME_FIELD_EMPTY" = "Ingresa tu(s) apellido(s)";
+"SIGN_UP_PASSWORD_FIELD_EMPTY" = "Completa la contraseña";

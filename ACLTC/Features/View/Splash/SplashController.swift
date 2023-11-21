@@ -22,6 +22,6 @@ class SplashController: BaseViewController, Storyboarded {
     }
     
     private func goToLogInView() {
-        coordinator?.goToLogInView()
+        coordinator?.goToSignInView()
     }
 }

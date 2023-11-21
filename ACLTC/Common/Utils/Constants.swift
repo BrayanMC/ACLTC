@@ -24,7 +24,7 @@ public enum DateFormats {
     public static let yyyy_MM_dd = "yyyy-MM-dd"
 }
 
-public enum TestUser {
+public enum TestLogIn {
     public static let email = "bmc@gmail.com"
     public static let password = "@bc12345"
 }

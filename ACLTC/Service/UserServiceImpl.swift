@@ -14,5 +14,11 @@ class UserServiceImpl: UserService {
             completion(result)
         }
     }
+    
+    func signUp(_ params: SignUpParam, completion: @escaping (Result<Bool, CustomError>) -> Void) {
+        repository.signUp(params) { result in
+            completion(result)
+        }
+    }
 }
 

@@ -25,8 +25,14 @@ class Coordinator {
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func goToLogInView() {
+    func goToSignInView() {
         let vc = SignInController.instantiate(StoryboardIds.SignIn)
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
+    
+    func goToSignUp() {
+        let vc = SignUpController.instantiate(StoryboardIds.SignUp)
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }

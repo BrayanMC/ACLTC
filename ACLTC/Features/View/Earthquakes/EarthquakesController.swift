@@ -115,7 +115,7 @@ extension EarthquakesController: ACLNavigationBarProtocol {
     }
     
     func leftButtonTapped() {
-        coordinator?.goToLogInView()
+        coordinator?.goToSignInView()
     }
 }
 

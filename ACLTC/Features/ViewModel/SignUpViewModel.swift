@@ -1,95 +1,103 @@
 //
-//  SignInViewModel.swift
+//  SignUpViewModel.swift
 //  ACLTC
 //
-//  Created by USUARIO on 20/11/23.
+//  Created by USUARIO on 21/11/23.
 //
 
 import Foundation
 
-enum SignInError: Error {
+enum SignUpError: Error {
     case emptyEmail
     case invalidEmail
+    case emptyName
+    case emptyLastName
     case emptyPassword
     case invalidPassword
 }
 
-final class SignInViewModel: BaseViewModel {
+final class SignUpViewModel: BaseViewModel {
     
     lazy var userService: UserService = UserServiceImpl()
     lazy var localService: LocalService = LocalServiceImpl()
     
-    var sessionEmail: Observable<String> = Observable(nil)
-    var logInSuccess: Observable<Bool> = Observable(nil)
-    var logInError: Observable<SignInError> = Observable(nil)
+    var signUpError: Observable<SignUpError> = Observable(nil)
+    var signUpSuccess: Observable<Bool> = Observable(nil)
     var isValidEmail: Observable<Bool> = Observable(nil)
+    var isValidName: Observable<Bool> = Observable(nil)
+    var isValidLastName: Observable<Bool> = Observable(nil)
     var isValidPassword: Observable<Bool> = Observable(nil)
-    var goToRegister: Observable<Bool> = Observable(nil)
-    
-    func validateSession() {
-        if (UserDefaults.standard.isLogged()) {
-            sessionEmail.value = localService.email()
-        }
-    }
     
     func validateEmail(_ email: String) {
         if email.isEmpty {
             loading.value = false
             isValidEmail.value = false
-            logInError.value = SignInError.emptyEmail
+            signUpError.value = SignUpError.emptyEmail
             return
         }
         
         if !email.isValidEmail {
             loading.value = false
             isValidEmail.value = false
-            logInError.value = SignInError.invalidEmail
+            signUpError.value = SignUpError.invalidEmail
             return
         }
         
         isValidEmail.value = true
     }
     
+    func validateName(_ name: String) {
+        if name.isEmpty {
+            loading.value = false
+            isValidName.value = false
+            signUpError.value = SignUpError.emptyName
+            return
+        }
+        
+        isValidName.value = true
+    }
+    
+    func validateLastName(_ lastName: String) {
+        if lastName.isEmpty {
+            loading.value = false
+            isValidLastName.value = false
+            signUpError.value = SignUpError.emptyLastName
+            return
+        }
+        
+        isValidLastName.value = true
+    }
+    
     func validatePassword(_ password: String) {
         if password.isEmpty {
             loading.value = false
             isValidPassword.value = false
-            logInError.value = SignInError.emptyPassword
+            signUpError.value = SignUpError.emptyPassword
             return
         }
         
         if password.count < GlobalConstants.minPasswordCharacters {
             loading.value = false
             isValidPassword.value = false
-            logInError.value = SignInError.invalidPassword
+            signUpError.value = SignUpError.invalidPassword
             return
         }
         
         isValidPassword.value = true
     }
     
-    func logIn(_ params: LogInParam) {
+    func register(_ params: SignUpParam) {
         loading.value = true
-        userService.logIn(params) { [weak self] result in
+        userService.signUp(params) { [weak self] result in
             guard self != nil else { return }
             self?.loading.value = false
             switch result {
             case .success(let data):
                 UserDefaults.standard.setIsLoggedValue(true)
                 self?.localService.email(params.email)
-                self?.logInSuccess.value = data
+                self?.signUpSuccess.value = data
             case .failure(let error):
                 switch error {
-                case .unAuthorized(let data):
-                    print("Error: \(String(describing: data))")
-                    self?.popUpError.value = self?.buildErrorPopUpViewData(
-                        title: "POP_UP_UNAUTHORIZED_ERROR_POP_UP_TITLE".localized,
-                        description: data?.message ?? "",
-                        buttonTitle: "POP_UP_GO_TO_REGISTER_BUTTON_TITLE".localized,
-                        completion: {
-                            self?.goToRegister.value = true
-                        }
-                    )
                 case .notConnectedToInternet(let data):
                     self?.loading.value = false
                     self?.popUpError.value = self?.buildErrorPopUpViewData(
@@ -98,14 +106,14 @@ final class SignInViewModel: BaseViewModel {
                         type: .noInternet,
                         buttonTitle: "POP_UP_TRY_AGAIN_BUTTON_TITLE".localized,
                         completion: {
-                            self?.logIn(params)
+                            self?.register(params)
                         }
                     )
                 default:
                     self?.loading.value = false
                     self?.popUpError.value = self?.buildErrorNotContemplatedPopUpViewData(
                         completion: {
-                            self?.logIn(params)
+                            self?.register(params)
                         }
                     )
                 }

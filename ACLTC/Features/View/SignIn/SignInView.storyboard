@@ -29,7 +29,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHm-Bu-RC6">
-                                        <rect key="frame" x="16" y="80" width="382" height="20"/>
+                                        <rect key="frame" x="16" y="60" width="382" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="wxZ-d3-BmT"/>
                                         </constraints>
@@ -38,7 +38,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicia sesión" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HZ-5k-egg">
-                                        <rect key="frame" x="16" y="102" width="382" height="35"/>
+                                        <rect key="frame" x="16" y="82" width="382" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="JrP-k2-EIJ"/>
                                         </constraints>
@@ -47,13 +47,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6I-P5-KMD" customClass="ACLTextField" customModule="ACLTC" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="161" width="382" height="73"/>
+                                        <rect key="frame" x="16" y="141" width="382" height="73"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="73" id="Lhr-K4-t6n"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gW8-wf-Pwh" customClass="ACLTextField" customModule="ACLTC" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="250" width="382" height="73"/>
+                                        <rect key="frame" x="16" y="230" width="382" height="73"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="73" id="jRN-Dc-FdX"/>
                                         </constraints>
@@ -78,7 +78,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Aún no tienes una cuenta? Regístrate aquí" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9q4-w8-M9v">
-                                        <rect key="frame" x="53" y="347" width="308.33333333333331" height="22"/>
+                                        <rect key="frame" x="53" y="327" width="308.33333333333331" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="c1Z-KP-87r"/>
                                         </constraints>
@@ -106,7 +106,7 @@
                                     <constraint firstItem="9q4-w8-M9v" firstAttribute="top" secondItem="gW8-wf-Pwh" secondAttribute="bottom" constant="24" id="mhx-KB-VZ3"/>
                                     <constraint firstItem="n1n-mX-6Bv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="9q4-w8-M9v" secondAttribute="bottom" constant="24" id="smE-Qf-RwA"/>
                                     <constraint firstAttribute="trailing" secondItem="n1n-mX-6Bv" secondAttribute="trailing" constant="16" id="vQO-fY-hgj"/>
-                                    <constraint firstItem="MHm-Bu-RC6" firstAttribute="top" secondItem="A8b-nQ-jTG" secondAttribute="top" constant="80" id="wXd-sK-5cK"/>
+                                    <constraint firstItem="MHm-Bu-RC6" firstAttribute="top" secondItem="A8b-nQ-jTG" secondAttribute="top" constant="60" id="wXd-sK-5cK"/>
                                 </constraints>
                             </view>
                         </subviews>

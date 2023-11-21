@@ -29,6 +29,18 @@
 		84B7D56E2B0D18A200CEFE78 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */; };
 		84B7D56F2B0D18A200CEFE78 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */; };
 		84B7D5702B0D18A200CEFE78 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */; };
+		84B7D5732B0D5DD000CEFE78 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D5722B0D5DD000CEFE78 /* SignUpController.swift */; };
+		84B7D5742B0D5DD000CEFE78 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D5722B0D5DD000CEFE78 /* SignUpController.swift */; };
+		84B7D5752B0D5DD000CEFE78 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D5722B0D5DD000CEFE78 /* SignUpController.swift */; };
+		84B7D5772B0D5DDA00CEFE78 /* SignUpView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B7D5762B0D5DDA00CEFE78 /* SignUpView.storyboard */; };
+		84B7D5782B0D5DDA00CEFE78 /* SignUpView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B7D5762B0D5DDA00CEFE78 /* SignUpView.storyboard */; };
+		84B7D5792B0D5DDA00CEFE78 /* SignUpView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B7D5762B0D5DDA00CEFE78 /* SignUpView.storyboard */; };
+		84B7D57B2B0D6F2100CEFE78 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D57A2B0D6F2000CEFE78 /* SignUpViewModel.swift */; };
+		84B7D57C2B0D6F2100CEFE78 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D57A2B0D6F2000CEFE78 /* SignUpViewModel.swift */; };
+		84B7D57D2B0D6F2100CEFE78 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D57A2B0D6F2000CEFE78 /* SignUpViewModel.swift */; };
+		84B7D5802B0D795000CEFE78 /* SignUpParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D57F2B0D795000CEFE78 /* SignUpParam.swift */; };
+		84B7D5812B0D795000CEFE78 /* SignUpParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D57F2B0D795000CEFE78 /* SignUpParam.swift */; };
+		84B7D5822B0D795000CEFE78 /* SignUpParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D57F2B0D795000CEFE78 /* SignUpParam.swift */; };
 		84C96B222B0BE01F00C8B876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B212B0BE01F00C8B876 /* AppDelegate.swift */; };
 		84C96B242B0BE01F00C8B876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */; };
 		84C96B2B2B0BE02100C8B876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C96B2A2B0BE02100C8B876 /* Assets.xcassets */; };
@@ -339,6 +351,10 @@
 		8440DAC72B0D15C00033A6E9 /* DetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailView.storyboard; sourceTree = "<group>"; };
 		8440DACB2B0D15D20033A6E9 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewData.swift; sourceTree = "<group>"; };
+		84B7D5722B0D5DD000CEFE78 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		84B7D5762B0D5DDA00CEFE78 /* SignUpView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpView.storyboard; sourceTree = "<group>"; };
+		84B7D57A2B0D6F2000CEFE78 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		84B7D57F2B0D795000CEFE78 /* SignUpParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpParam.swift; sourceTree = "<group>"; };
 		84C96B1E2B0BE01F00C8B876 /* ACLTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACLTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C96B212B0BE01F00C8B876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -498,6 +514,23 @@
 				84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		84B7D5712B0D5DC000CEFE78 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				84B7D5722B0D5DD000CEFE78 /* SignUpController.swift */,
+				84B7D5762B0D5DDA00CEFE78 /* SignUpView.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		84B7D57E2B0D793600CEFE78 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				84B7D57F2B0D795000CEFE78 /* SignUpParam.swift */,
+			);
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		84C96B152B0BE01F00C8B876 = {
@@ -734,6 +767,7 @@
 				84F9D5972B0C6549000798E7 /* SignInViewModel.swift */,
 				84F9D5992B0C6575000798E7 /* BaseViewModel.swift */,
 				84F9D6072B0C8C73000798E7 /* EarthquakeViewModel.swift */,
+				84B7D57A2B0D6F2000CEFE78 /* SignUpViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -741,6 +775,7 @@
 		84C96BA02B0C164200C8B876 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84B7D5712B0D5DC000CEFE78 /* SignUp */,
 				8440DAC62B0D15B30033A6E9 /* Detail */,
 				8440D6D22B0C9F8700123BB2 /* Filters */,
 				84F9D5FD2B0C8948000798E7 /* Earthquakes */,
@@ -895,6 +930,7 @@
 		84F9D5A42B0C66D9000798E7 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				84B7D57E2B0D793600CEFE78 /* SignUp */,
 				84F9D5EC2B0C8694000798E7 /* Event */,
 				84F9D5A92B0C66F4000798E7 /* LogIn */,
 			);
@@ -1111,6 +1147,7 @@
 				84C96C042B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
 				84C96B5D2B0C057700C8B876 /* Localizable.strings in Resources */,
 				84C96B6A2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
+				84B7D5772B0D5DDA00CEFE78 /* SignUpView.storyboard in Resources */,
 				84F9D5FF2B0C8955000798E7 /* EarthquakesView.storyboard in Resources */,
 				84C96BED2B0C294C00C8B876 /* ACLNavigationBar.xib in Resources */,
 				84C96B732B0C07E900C8B876 /* Nunito-Bold.ttf in Resources */,
@@ -1143,6 +1180,7 @@
 				8440DAC92B0D15C00033A6E9 /* DetailView.storyboard in Resources */,
 				8440D6D92B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96BB92B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
+				84B7D5782B0D5DDA00CEFE78 /* SignUpView.storyboard in Resources */,
 				84C96C052B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
 				84C96B712B0C07E900C8B876 /* Nunito-SemiBold.ttf in Resources */,
 				84C96C372B0C3D8800C8B876 /* ACLTextField.xib in Resources */,
@@ -1166,6 +1204,7 @@
 				8440DACA2B0D15C00033A6E9 /* DetailView.storyboard in Resources */,
 				8440D6DA2B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96BBA2B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
+				84B7D5792B0D5DDA00CEFE78 /* SignUpView.storyboard in Resources */,
 				84C96C062B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
 				84C96B722B0C07E900C8B876 /* Nunito-SemiBold.ttf in Resources */,
 				84C96C382B0C3D8800C8B876 /* ACLTextField.xib in Resources */,
@@ -1332,6 +1371,7 @@
 				84C96C082B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
 				84F9D6102B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */,
 				84F9D5E52B0C8638000798E7 /* Earthquake.swift in Sources */,
+				84B7D57B2B0D6F2100CEFE78 /* SignUpViewModel.swift in Sources */,
 				84C96B872B0C0A3000C8B876 /* Observable.swift in Sources */,
 				84F9D5F22B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */,
 				84C96C1D2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
@@ -1343,6 +1383,7 @@
 				84C96BBD2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
 				84C96C322B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
 				84C96BF12B0C296900C8B876 /* ACLNavigationBar.swift in Sources */,
+				84B7D5732B0D5DD000CEFE78 /* SignUpController.swift in Sources */,
 				84F9D5942B0C5636000798E7 /* ProgressFacade.swift in Sources */,
 				84C96C4A2B0C3EB700C8B876 /* ACLTextFieldState.swift in Sources */,
 				84F9D5A12B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
@@ -1381,6 +1422,7 @@
 				84C96BE42B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
 				84C96BF52B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84C96B932B0C0CB000C8B876 /* UtilsManager.swift in Sources */,
+				84B7D5802B0D795000CEFE78 /* SignUpParam.swift in Sources */,
 				8440DACC2B0D15D20033A6E9 /* DetailController.swift in Sources */,
 				84F9D5BA2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
 				84F9D5A62B0C66E2000798E7 /* LogInParam.swift in Sources */,
@@ -1431,6 +1473,8 @@
 				84EB7B2A2B0CCA1400FC608D /* LocalService.swift in Sources */,
 				84C96BE52B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
 				84EB7B2E2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */,
+				84B7D5812B0D795000CEFE78 /* SignUpParam.swift in Sources */,
+				84B7D5742B0D5DD000CEFE78 /* SignUpController.swift in Sources */,
 				84F9D6152B0C95E2000798E7 /* Double+Extension.swift in Sources */,
 				84C96BCC2B0C211000C8B876 /* ColorManager.swift in Sources */,
 				84F9D5A72B0C66E2000798E7 /* LogInParam.swift in Sources */,
@@ -1459,6 +1503,7 @@
 				84C96C432B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
 				84C96B882B0C0A3000C8B876 /* Observable.swift in Sources */,
 				84C96C3B2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
+				84B7D57C2B0D6F2100CEFE78 /* SignUpViewModel.swift in Sources */,
 				84C96C162B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
 				8440D6E12B0CA41300123BB2 /* SelectedDate.swift in Sources */,
 				8440DACD2B0D15D20033A6E9 /* DetailController.swift in Sources */,
@@ -1514,6 +1559,7 @@
 				84F9D5CD2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84F9D5D52B0C80C6000798E7 /* Endpoint.swift in Sources */,
 				84EB7B232B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */,
+				84B7D5822B0D795000CEFE78 /* SignUpParam.swift in Sources */,
 				84C96B8D2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C1F2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96BA52B0C166300C8B876 /* BaseViewController.swift in Sources */,
@@ -1550,6 +1596,7 @@
 				84EB7B2F2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */,
 				84F9D59C2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
 				84F9D5DE2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */,
+				84B7D57D2B0D6F2100CEFE78 /* SignUpViewModel.swift in Sources */,
 				84C96C232B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
 				84C96C402B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
 				84C96C3C2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
@@ -1558,6 +1605,7 @@
 				84EB7B272B0CC95000FC608D /* LocalRepository.swift in Sources */,
 				84F9D5EB2B0C867A000798E7 /* EventRepository.swift in Sources */,
 				84F9D5B32B0C775D000798E7 /* UserRepository.swift in Sources */,
+				84B7D5752B0D5DD000CEFE78 /* SignUpController.swift in Sources */,
 				84C96BF72B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84F9D5B82B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84F9D60A2B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */,
