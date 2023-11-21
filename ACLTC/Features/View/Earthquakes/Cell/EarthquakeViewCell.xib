@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EarthquakeViewCell" id="RLZ-Ab-cTh" customClass="EarthquakeViewCell" customModule="ACLTC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RLZ-Ab-cTh" id="YkS-c5-t0Z">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eye" translatesAutoresizingMaskIntoConstraints="NO" id="OKc-76-Ijn">
+                        <rect key="frame" x="334" y="4" width="32" height="72"/>
+                        <color key="backgroundColor" name="Primary300"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="BtA-n1-xN4"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfO-An-W0r">
+                        <rect key="frame" x="24" y="8" width="298" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="dKA-Ak-uUH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
+                        <color key="textColor" name="Primary"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magnitud:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8r-Jq-s0t">
+                        <rect key="frame" x="24" y="32" width="145" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="0hs-5V-b2h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="12"/>
+                        <color key="textColor" name="Black300"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profundidad:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ah7-Eo-BQS">
+                        <rect key="frame" x="177" y="32" width="145" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="yNa-TP-p0r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="12"/>
+                        <color key="textColor" name="Black300"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lugar:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1S-d1-cmX">
+                        <rect key="frame" x="24" y="56" width="298" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Bu9-DJ-hXq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="12"/>
+                        <color key="textColor" name="Black300"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="Background"/>
+                <constraints>
+                    <constraint firstItem="ah7-Eo-BQS" firstAttribute="width" secondItem="O8r-Jq-s0t" secondAttribute="width" id="0z5-VD-rjD"/>
+                    <constraint firstAttribute="trailing" secondItem="OKc-76-Ijn" secondAttribute="trailing" constant="24" id="FIZ-ze-2iT"/>
+                    <constraint firstItem="ah7-Eo-BQS" firstAttribute="centerY" secondItem="O8r-Jq-s0t" secondAttribute="centerY" id="Hci-t7-a6I"/>
+                    <constraint firstItem="vfO-An-W0r" firstAttribute="top" secondItem="YkS-c5-t0Z" secondAttribute="top" constant="8" id="LyD-UC-EYy"/>
+                    <constraint firstItem="O8r-Jq-s0t" firstAttribute="top" secondItem="vfO-An-W0r" secondAttribute="bottom" constant="8" id="P70-gw-5n6"/>
+                    <constraint firstItem="k1S-d1-cmX" firstAttribute="trailing" secondItem="vfO-An-W0r" secondAttribute="trailing" id="PIU-47-Fri"/>
+                    <constraint firstItem="O8r-Jq-s0t" firstAttribute="leading" secondItem="vfO-An-W0r" secondAttribute="leading" id="PTf-wK-EaD"/>
+                    <constraint firstItem="k1S-d1-cmX" firstAttribute="leading" secondItem="O8r-Jq-s0t" secondAttribute="leading" id="dQ9-w6-TAi"/>
+                    <constraint firstItem="OKc-76-Ijn" firstAttribute="top" secondItem="YkS-c5-t0Z" secondAttribute="top" constant="4" id="dx8-h7-Ech"/>
+                    <constraint firstItem="k1S-d1-cmX" firstAttribute="top" secondItem="O8r-Jq-s0t" secondAttribute="bottom" constant="8" id="fFJ-Np-cbe"/>
+                    <constraint firstItem="OKc-76-Ijn" firstAttribute="leading" secondItem="vfO-An-W0r" secondAttribute="trailing" constant="12" id="jWG-y0-gps"/>
+                    <constraint firstAttribute="bottom" secondItem="k1S-d1-cmX" secondAttribute="bottom" constant="8" id="jWU-6L-8cm"/>
+                    <constraint firstItem="ah7-Eo-BQS" firstAttribute="leading" secondItem="O8r-Jq-s0t" secondAttribute="trailing" constant="8" id="jmW-2t-1RF"/>
+                    <constraint firstItem="ah7-Eo-BQS" firstAttribute="trailing" secondItem="vfO-An-W0r" secondAttribute="trailing" id="qvJ-JY-nIP"/>
+                    <constraint firstItem="vfO-An-W0r" firstAttribute="leading" secondItem="YkS-c5-t0Z" secondAttribute="leading" constant="24" id="sTc-Ov-rco"/>
+                    <constraint firstAttribute="bottom" secondItem="OKc-76-Ijn" secondAttribute="bottom" constant="4" id="z6I-vR-ID8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="depthLabel" destination="ah7-Eo-BQS" id="J3W-au-fZv"/>
+                <outlet property="magnitudeLabel" destination="O8r-Jq-s0t" id="jIW-yh-7b5"/>
+                <outlet property="placeLabel" destination="k1S-d1-cmX" id="0E0-bB-hVi"/>
+                <outlet property="seeImageView" destination="OKc-76-Ijn" id="mtc-ZQ-Lc4"/>
+                <outlet property="titleLabel" destination="vfO-An-W0r" id="fZ0-b5-8WQ"/>
+            </connections>
+            <point key="canvasLocation" x="130.76923076923077" y="-11.374407582938389"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="eye" width="20" height="20"/>
+        <namedColor name="Background">
+            <color red="0.97299998998641968" green="0.9649999737739563" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Black300">
+            <color red="0.38400000333786011" green="0.38400000333786011" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.3919999897480011" green="0.039000000804662704" blue="0.68999999761581421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary300">
+            <color red="0.92500001192092896" green="0.88599997758865356" blue="0.9649999737739563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

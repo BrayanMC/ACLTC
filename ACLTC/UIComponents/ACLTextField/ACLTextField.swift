@@ -478,12 +478,12 @@ public class ACLTextField: UIView {
         let dateComponent = DateComponents()
         let maximumDate = Calendar.current.date(byAdding: dateComponent, to: currentDate)
         datePicker = UIDatePicker()
-        datePicker!.datePickerMode = .date
-        datePicker!.maximumDate = maximumDate
+        datePicker?.datePickerMode = .date
+        datePicker?.maximumDate = maximumDate
         if #available(iOS 13.4, *) {
             datePicker!.preferredDatePickerStyle = .wheels
         }
-        datePicker!.sizeToFit()
+        datePicker?.sizeToFit()
         let toolBar = UIToolbar()
         toolBar.barStyle = UIBarStyle.default
         toolBar.isTranslucent = true
@@ -499,6 +499,18 @@ public class ACLTextField: UIView {
     public func openPicker() {
         if datePicker != nil {
             textField.becomeFirstResponder()
+        }
+    }
+    
+    public func getSelectedDate() -> Date {
+        datePicker?.date ?? Date()
+    }
+    
+    public func setMinimumDate(_ date: Date) {
+        if let _datePicker = datePicker {
+            let dateComponent = DateComponents()
+            let minimumDate = Calendar.current.date(byAdding: dateComponent, to: date)
+            _datePicker.minimumDate = minimumDate
         }
     }
     
@@ -591,7 +603,11 @@ public class ACLTextField: UIView {
             guard let text = textField.text else { return }
             eventsDelegate?.editingChanged(id: getId(), text)
             break
-        case .OTP, .Name, .LastName, .DocumentNumber, .CellPhoneNumber, .CardNumber, .CVVCode, .Date, .Default:
+        case .Date:
+            guard let text = textField.text else { return }
+            eventsDelegate?.editingChanged(id: getId(), text)
+            break
+        case .OTP, .Name, .LastName, .DocumentNumber, .CellPhoneNumber, .CardNumber, .CVVCode, .Default:
             break
         }
     }

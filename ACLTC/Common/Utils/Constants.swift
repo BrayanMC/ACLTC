@@ -21,6 +21,7 @@ public enum DocumentTypeMaxCharacters {
 public enum DateFormats {
     public static let ddMMMMyyy = "dd MMMM yyyy"
     public static let dd_MM_yyyy = "dd-MM-yyyy"
+    public static let yyyy_MM_dd = "yyyy-MM-dd"
 }
 
 public enum TestUser {

@@ -5,11 +5,16 @@ def networkingpods
   pod 'Alamofire', '~> 5.4.4'
 end
 
+def uipods
+  pod 'SkeletonView'
+end
+
 target 'ACLTC' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   networkingpods
+  uipods
   
   # Pods for ACLTC
 

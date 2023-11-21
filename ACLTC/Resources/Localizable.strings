@@ -9,7 +9,6 @@
 // MARK: - GLOBAL
 
 "BAR_BUTTON_ACCEPT_TEXT" = "Aceptar";
-"POP_UP_GO_TO_REGISTER_BUTTON_TITLE" = "Ir a registro";
 
 // MARK: - SIGN IN
 
@@ -28,3 +27,18 @@
 "POP_UP_NO_INTERNET_TITLE" = "Sin acceso a internet";
 "POP_UP_NO_INTERNET_DESCRIPTION" = "Verifica tu conexión de red wifi o datos móviles.";
 "POP_UP_UNAUTHORIZED_ERROR_POP_UP_TITLE" = "Revisa tus datos";
+"POP_UP_GO_TO_REGISTER_BUTTON_TITLE" = "Ir a registro";
+"POP_UP_TRY_AGAIN_BUTTON_TITLE" = "Volver a intentar";
+
+// MARK: - EARTQUAKES
+
+"TEXT_DATE" = "%@ de %@";
+"TEXT_DATE_FROM_TO" = "Del %@ al %@";
+"DETAIL_MAGNITUDE_TEXT" = "Profundidad: %@";
+"DETAIL_DEPTH_TEXT" = "Magnitud: %@";
+"DETAIL_PLACE_TEXT" = "Lugar: %@";
+
+// MARK: - FILTERS
+
+"FILTERS_START_DATE" = "Fecha de inicio";
+"FILTERS_END_DATE" = "Fecha de fin";

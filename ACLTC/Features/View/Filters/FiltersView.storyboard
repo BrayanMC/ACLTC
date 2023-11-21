@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-SemiBold.ttf">
+            <string>Nunito-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Filters Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FiltersController" id="Y6W-OH-hqX" customClass="FiltersController" customModule="ACLTC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M8s-Em-boi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" name="BackgroundModal"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sGl-pP-IiK">
+                                <rect key="frame" x="0.0" y="340.5" width="375" height="326.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elegir fecha de inicio y fecha de fin" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMq-SG-All">
+                                        <rect key="frame" x="24" y="24" width="327" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Nunito-SemiBold" family="Nunito" pointSize="14"/>
+                                        <color key="textColor" name="Black400"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2r-gw-qQ6" customClass="ACLButton" customModule="ACLTC" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="246.5" width="343" height="48"/>
+                                        <color key="backgroundColor" name="Red"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="uNA-PS-b4t"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="16"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Filtrar">
+                                            <color key="titleColor" name="White"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="code">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="saveCustomButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zV7-Sv-eVX"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWD-8J-Id3" customClass="ACLTextField" customModule="ACLTC" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="64.5" width="343" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="73" id="ySX-Uo-hUt"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JwF-rM-oy1" customClass="ACLTextField" customModule="ACLTC" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="149.5" width="343" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="73" id="juu-WT-Stx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bWD-8J-Id3" secondAttribute="trailing" constant="16" id="33W-b0-TVy"/>
+                                    <constraint firstItem="KMq-SG-All" firstAttribute="leading" secondItem="sGl-pP-IiK" secondAttribute="leading" constant="24" id="81X-p8-0cl"/>
+                                    <constraint firstAttribute="trailing" secondItem="KMq-SG-All" secondAttribute="trailing" constant="24" id="C1e-b1-Cow"/>
+                                    <constraint firstItem="JwF-rM-oy1" firstAttribute="top" secondItem="bWD-8J-Id3" secondAttribute="bottom" constant="12" id="DpG-fC-zXc"/>
+                                    <constraint firstItem="bWD-8J-Id3" firstAttribute="top" secondItem="KMq-SG-All" secondAttribute="bottom" constant="24" id="He7-H3-JR0"/>
+                                    <constraint firstAttribute="trailing" secondItem="JwF-rM-oy1" secondAttribute="trailing" constant="16" id="IoY-Br-d3z"/>
+                                    <constraint firstItem="JwF-rM-oy1" firstAttribute="leading" secondItem="sGl-pP-IiK" secondAttribute="leading" constant="16" id="Nri-N4-YT3"/>
+                                    <constraint firstItem="M2r-gw-qQ6" firstAttribute="top" secondItem="JwF-rM-oy1" secondAttribute="bottom" constant="24" id="RYV-kq-PHj"/>
+                                    <constraint firstItem="bWD-8J-Id3" firstAttribute="leading" secondItem="sGl-pP-IiK" secondAttribute="leading" constant="16" id="UmR-sX-DtY"/>
+                                    <constraint firstAttribute="bottom" secondItem="M2r-gw-qQ6" secondAttribute="bottom" constant="32" id="aze-5z-H2V"/>
+                                    <constraint firstItem="M2r-gw-qQ6" firstAttribute="leading" secondItem="sGl-pP-IiK" secondAttribute="leading" constant="16" id="eMb-zO-dd6"/>
+                                    <constraint firstAttribute="trailing" secondItem="M2r-gw-qQ6" secondAttribute="trailing" constant="16" id="iXA-WW-MGN"/>
+                                    <constraint firstItem="KMq-SG-All" firstAttribute="top" secondItem="sGl-pP-IiK" secondAttribute="top" constant="24" id="ziF-lW-8UW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="M8s-Em-boi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="8fG-t6-erU"/>
+                            <constraint firstItem="sGl-pP-IiK" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Aft-Tz-XQx"/>
+                            <constraint firstItem="M8s-Em-boi" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="FBN-N5-3kS"/>
+                            <constraint firstItem="sGl-pP-IiK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="NIw-NH-az1"/>
+                            <constraint firstItem="M8s-Em-boi" firstAttribute="bottom" secondItem="5EZ-qb-Rvc" secondAttribute="bottom" id="Ssq-a1-0RW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="sGl-pP-IiK" secondAttribute="bottom" id="hhS-3C-gxU"/>
+                            <constraint firstItem="M8s-Em-boi" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="pCs-Km-95m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomSheetView" destination="sGl-pP-IiK" id="p4x-z1-dTI"/>
+                        <outlet property="endTimeACLTextField" destination="JwF-rM-oy1" id="LUv-FD-kcq"/>
+                        <outlet property="filterACLButton" destination="M2r-gw-qQ6" id="GnQ-oX-CSf"/>
+                        <outlet property="overlayView" destination="M8s-Em-boi" id="nd4-Pv-a2S"/>
+                        <outlet property="startTimeACLTextField" destination="bWD-8J-Id3" id="0FB-fJ-b27"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="BackgroundModal">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Black400">
+            <color red="0.1289999932050705" green="0.1289999932050705" blue="0.1289999932050705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Red">
+            <color red="1" green="0.30199998617172241" blue="0.36899998784065247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

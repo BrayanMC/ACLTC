@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		37B2814FCEE0DC1BC915622A /* Pods_ACLTCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0E08B212AF7615CAFA98A /* Pods_ACLTCTests.framework */; };
+		8440D6D42B0C9F9600123BB2 /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6D32B0C9F9600123BB2 /* FiltersController.swift */; };
+		8440D6D52B0C9F9B00123BB2 /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6D32B0C9F9600123BB2 /* FiltersController.swift */; };
+		8440D6D62B0C9F9B00123BB2 /* FiltersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6D32B0C9F9600123BB2 /* FiltersController.swift */; };
+		8440D6D82B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440D6D72B0C9FBE00123BB2 /* FiltersView.storyboard */; };
+		8440D6D92B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440D6D72B0C9FBE00123BB2 /* FiltersView.storyboard */; };
+		8440D6DA2B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440D6D72B0C9FBE00123BB2 /* FiltersView.storyboard */; };
+		8440D6DC2B0CA0A900123BB2 /* FilterViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DB2B0CA0A900123BB2 /* FilterViewData.swift */; };
+		8440D6DD2B0CA0A900123BB2 /* FilterViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DB2B0CA0A900123BB2 /* FilterViewData.swift */; };
+		8440D6DE2B0CA0A900123BB2 /* FilterViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DB2B0CA0A900123BB2 /* FilterViewData.swift */; };
+		8440D6E02B0CA41300123BB2 /* SelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */; };
+		8440D6E12B0CA41300123BB2 /* SelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */; };
+		8440D6E22B0CA41300123BB2 /* SelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */; };
 		84C96B222B0BE01F00C8B876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B212B0BE01F00C8B876 /* AppDelegate.swift */; };
 		84C96B242B0BE01F00C8B876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */; };
 		84C96B2B2B0BE02100C8B876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C96B2A2B0BE02100C8B876 /* Assets.xcassets */; };
@@ -225,6 +237,51 @@
 		84F9D5CF2B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */; };
 		84F9D5D02B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */; };
 		84F9D5D12B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */; };
+		84F9D5D32B0C80C6000798E7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5D22B0C80C6000798E7 /* Endpoint.swift */; };
+		84F9D5D42B0C80C6000798E7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5D22B0C80C6000798E7 /* Endpoint.swift */; };
+		84F9D5D52B0C80C6000798E7 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5D22B0C80C6000798E7 /* Endpoint.swift */; };
+		84F9D5D72B0C80F7000798E7 /* EnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5D62B0C80F7000798E7 /* EnvironmentManager.swift */; };
+		84F9D5D82B0C80F7000798E7 /* EnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5D62B0C80F7000798E7 /* EnvironmentManager.swift */; };
+		84F9D5D92B0C80F7000798E7 /* EnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5D62B0C80F7000798E7 /* EnvironmentManager.swift */; };
+		84F9D5DC2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5DB2B0C8268000798E7 /* EarthquakeResponse.swift */; };
+		84F9D5DD2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5DB2B0C8268000798E7 /* EarthquakeResponse.swift */; };
+		84F9D5DE2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5DB2B0C8268000798E7 /* EarthquakeResponse.swift */; };
+		84F9D5E52B0C8638000798E7 /* Earthquake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5E42B0C8638000798E7 /* Earthquake.swift */; };
+		84F9D5E62B0C8638000798E7 /* Earthquake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5E42B0C8638000798E7 /* Earthquake.swift */; };
+		84F9D5E72B0C8638000798E7 /* Earthquake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5E42B0C8638000798E7 /* Earthquake.swift */; };
+		84F9D5E92B0C867A000798E7 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5E82B0C867A000798E7 /* EventRepository.swift */; };
+		84F9D5EA2B0C867A000798E7 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5E82B0C867A000798E7 /* EventRepository.swift */; };
+		84F9D5EB2B0C867A000798E7 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5E82B0C867A000798E7 /* EventRepository.swift */; };
+		84F9D5EE2B0C86A3000798E7 /* GetEarthquakeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5ED2B0C86A3000798E7 /* GetEarthquakeParam.swift */; };
+		84F9D5EF2B0C86A3000798E7 /* GetEarthquakeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5ED2B0C86A3000798E7 /* GetEarthquakeParam.swift */; };
+		84F9D5F02B0C86A3000798E7 /* GetEarthquakeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5ED2B0C86A3000798E7 /* GetEarthquakeParam.swift */; };
+		84F9D5F22B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F12B0C86D2000798E7 /* EventRepositoryImpl.swift */; };
+		84F9D5F32B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F12B0C86D2000798E7 /* EventRepositoryImpl.swift */; };
+		84F9D5F42B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F12B0C86D2000798E7 /* EventRepositoryImpl.swift */; };
+		84F9D5F62B0C8762000798E7 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F52B0C8762000798E7 /* EventService.swift */; };
+		84F9D5F72B0C8762000798E7 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F52B0C8762000798E7 /* EventService.swift */; };
+		84F9D5F82B0C8762000798E7 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F52B0C8762000798E7 /* EventService.swift */; };
+		84F9D5FA2B0C8789000798E7 /* EventServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F92B0C8789000798E7 /* EventServiceImpl.swift */; };
+		84F9D5FB2B0C8789000798E7 /* EventServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F92B0C8789000798E7 /* EventServiceImpl.swift */; };
+		84F9D5FC2B0C8789000798E7 /* EventServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5F92B0C8789000798E7 /* EventServiceImpl.swift */; };
+		84F9D5FF2B0C8955000798E7 /* EarthquakesView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F9D5FE2B0C8955000798E7 /* EarthquakesView.storyboard */; };
+		84F9D6002B0C8955000798E7 /* EarthquakesView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F9D5FE2B0C8955000798E7 /* EarthquakesView.storyboard */; };
+		84F9D6012B0C8955000798E7 /* EarthquakesView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F9D5FE2B0C8955000798E7 /* EarthquakesView.storyboard */; };
+		84F9D6042B0C89E6000798E7 /* EarthquakesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6032B0C89E6000798E7 /* EarthquakesController.swift */; };
+		84F9D6052B0C89E6000798E7 /* EarthquakesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6032B0C89E6000798E7 /* EarthquakesController.swift */; };
+		84F9D6062B0C89E6000798E7 /* EarthquakesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6032B0C89E6000798E7 /* EarthquakesController.swift */; };
+		84F9D6082B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6072B0C8C73000798E7 /* EarthquakeViewModel.swift */; };
+		84F9D6092B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6072B0C8C73000798E7 /* EarthquakeViewModel.swift */; };
+		84F9D60A2B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6072B0C8C73000798E7 /* EarthquakeViewModel.swift */; };
+		84F9D60C2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9D60B2B0C936B000798E7 /* EarthquakeViewCell.xib */; };
+		84F9D60D2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9D60B2B0C936B000798E7 /* EarthquakeViewCell.xib */; };
+		84F9D60E2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F9D60B2B0C936B000798E7 /* EarthquakeViewCell.xib */; };
+		84F9D6102B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D60F2B0C9371000798E7 /* EarthquakeViewCell.swift */; };
+		84F9D6112B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D60F2B0C9371000798E7 /* EarthquakeViewCell.swift */; };
+		84F9D6122B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D60F2B0C9371000798E7 /* EarthquakeViewCell.swift */; };
+		84F9D6142B0C95E2000798E7 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6132B0C95E2000798E7 /* Double+Extension.swift */; };
+		84F9D6152B0C95E2000798E7 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6132B0C95E2000798E7 /* Double+Extension.swift */; };
+		84F9D6162B0C95E2000798E7 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D6132B0C95E2000798E7 /* Double+Extension.swift */; };
 		A670CBB60E55DE4FDD79100B /* Pods_ACLTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4606E844602983F1096AC0E3 /* Pods_ACLTC.framework */; };
 		C2FA2DD72F0D5CFB1B9C54EC /* Pods_ACLTC_ACLTCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F6FA1CC757AB03B2CE3F6A /* Pods_ACLTC_ACLTCUITests.framework */; };
 /* End PBXBuildFile section */
@@ -248,6 +305,10 @@
 
 /* Begin PBXFileReference section */
 		4606E844602983F1096AC0E3 /* Pods_ACLTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACLTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8440D6D32B0C9F9600123BB2 /* FiltersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersController.swift; sourceTree = "<group>"; };
+		8440D6D72B0C9FBE00123BB2 /* FiltersView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FiltersView.storyboard; sourceTree = "<group>"; };
+		8440D6DB2B0CA0A900123BB2 /* FilterViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewData.swift; sourceTree = "<group>"; };
+		8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedDate.swift; sourceTree = "<group>"; };
 		84C96B1E2B0BE01F00C8B876 /* ACLTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACLTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C96B212B0BE01F00C8B876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -329,6 +390,21 @@
 		84F9D5C62B0C79A9000798E7 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceImpl.swift; sourceTree = "<group>"; };
 		84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		84F9D5D22B0C80C6000798E7 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		84F9D5D62B0C80F7000798E7 /* EnvironmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentManager.swift; sourceTree = "<group>"; };
+		84F9D5DB2B0C8268000798E7 /* EarthquakeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeResponse.swift; sourceTree = "<group>"; };
+		84F9D5E42B0C8638000798E7 /* Earthquake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earthquake.swift; sourceTree = "<group>"; };
+		84F9D5E82B0C867A000798E7 /* EventRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepository.swift; sourceTree = "<group>"; };
+		84F9D5ED2B0C86A3000798E7 /* GetEarthquakeParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEarthquakeParam.swift; sourceTree = "<group>"; };
+		84F9D5F12B0C86D2000798E7 /* EventRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRepositoryImpl.swift; sourceTree = "<group>"; };
+		84F9D5F52B0C8762000798E7 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		84F9D5F92B0C8789000798E7 /* EventServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventServiceImpl.swift; sourceTree = "<group>"; };
+		84F9D5FE2B0C8955000798E7 /* EarthquakesView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EarthquakesView.storyboard; sourceTree = "<group>"; };
+		84F9D6032B0C89E6000798E7 /* EarthquakesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesController.swift; sourceTree = "<group>"; };
+		84F9D6072B0C8C73000798E7 /* EarthquakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeViewModel.swift; sourceTree = "<group>"; };
+		84F9D60B2B0C936B000798E7 /* EarthquakeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EarthquakeViewCell.xib; sourceTree = "<group>"; };
+		84F9D60F2B0C9371000798E7 /* EarthquakeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeViewCell.swift; sourceTree = "<group>"; };
+		84F9D6132B0C95E2000798E7 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		95E40379ECCB3E656E7ACB97 /* Pods-ACLTCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTCTests.debug.xcconfig"; path = "Target Support Files/Pods-ACLTCTests/Pods-ACLTCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9F7A60693B725DF08212208 /* Pods-ACLTC-ACLTCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTC-ACLTCUITests.debug.xcconfig"; path = "Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0F6FA1CC757AB03B2CE3F6A /* Pods_ACLTC_ACLTCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACLTC_ACLTCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -367,6 +443,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8440D6D22B0C9F8700123BB2 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				8440D6D32B0C9F9600123BB2 /* FiltersController.swift */,
+				8440D6D72B0C9FBE00123BB2 /* FiltersView.storyboard */,
+				8440D6DB2B0CA0A900123BB2 /* FilterViewData.swift */,
+				8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		84C96B152B0BE01F00C8B876 = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +548,7 @@
 			children = (
 				84F9D5C52B0C7991000798E7 /* Protocols */,
 				84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */,
+				84F9D5F92B0C8789000798E7 /* EventServiceImpl.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -470,6 +558,7 @@
 			children = (
 				84F9D5AF2B0C7751000798E7 /* Protocols */,
 				84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */,
+				84F9D5F12B0C86D2000798E7 /* EventRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -477,6 +566,7 @@
 		84C96B562B0C04CC00C8B876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5E32B0C8625000798E7 /* Event */,
 				84F9D5A42B0C66D9000798E7 /* Request */,
 			);
 			path = Model;
@@ -493,6 +583,7 @@
 		84C96B582B0C04D800C8B876 /* Environment */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5D62B0C80F7000798E7 /* EnvironmentManager.swift */,
 			);
 			path = Environment;
 			sourceTree = "<group>";
@@ -592,6 +683,7 @@
 			children = (
 				84F9D5972B0C6549000798E7 /* SignInViewModel.swift */,
 				84F9D5992B0C6575000798E7 /* BaseViewModel.swift */,
+				84F9D6072B0C8C73000798E7 /* EarthquakeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -599,6 +691,8 @@
 		84C96BA02B0C164200C8B876 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8440D6D22B0C9F8700123BB2 /* Filters */,
+				84F9D5FD2B0C8948000798E7 /* Earthquakes */,
 				84C96C512B0C4C2000C8B876 /* SignIn */,
 				84C96BA12B0C164F00C8B876 /* Splash */,
 				84C96BA22B0C166300C8B876 /* BaseViewController.swift */,
@@ -629,6 +723,7 @@
 				84C96C2D2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift */,
 				84C96C312B0C3B7C00C8B876 /* NSMutableString+Extension.swift */,
 				84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */,
+				84F9D6132B0C95E2000798E7 /* Double+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -638,6 +733,7 @@
 			children = (
 				84C96BBC2B0C207000C8B876 /* NetworkMonitor.swift */,
 				84F9D5B52B0C77B5000798E7 /* CustomError.swift */,
+				84F9D5D22B0C80C6000798E7 /* Endpoint.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -739,6 +835,7 @@
 		84F9D59F2B0C65B8000798E7 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5DA2B0C8236000798E7 /* Event */,
 				84F9D5A02B0C65C0000798E7 /* ErrorResponse.swift */,
 			);
 			path = Response;
@@ -747,8 +844,8 @@
 		84F9D5A42B0C66D9000798E7 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5EC2B0C8694000798E7 /* Event */,
 				84F9D5A92B0C66F4000798E7 /* LogIn */,
-				84F9D5A52B0C66E2000798E7 /* LogInParam.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -756,6 +853,7 @@
 		84F9D5A92B0C66F4000798E7 /* LogIn */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5A52B0C66E2000798E7 /* LogInParam.swift */,
 			);
 			path = LogIn;
 			sourceTree = "<group>";
@@ -764,6 +862,7 @@
 			isa = PBXGroup;
 			children = (
 				84F9D5B02B0C775D000798E7 /* UserRepository.swift */,
+				84F9D5E82B0C867A000798E7 /* EventRepository.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -772,8 +871,52 @@
 			isa = PBXGroup;
 			children = (
 				84F9D5C62B0C79A9000798E7 /* UserService.swift */,
+				84F9D5F52B0C8762000798E7 /* EventService.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84F9D5DA2B0C8236000798E7 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5DB2B0C8268000798E7 /* EarthquakeResponse.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		84F9D5E32B0C8625000798E7 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5E42B0C8638000798E7 /* Earthquake.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		84F9D5EC2B0C8694000798E7 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5ED2B0C86A3000798E7 /* GetEarthquakeParam.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		84F9D5FD2B0C8948000798E7 /* Earthquakes */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D6032B0C89E6000798E7 /* EarthquakesController.swift */,
+				84F9D5FE2B0C8955000798E7 /* EarthquakesView.storyboard */,
+				84F9D6022B0C895F000798E7 /* Cell */,
+			);
+			path = Earthquakes;
+			sourceTree = "<group>";
+		};
+		84F9D6022B0C895F000798E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D60B2B0C936B000798E7 /* EarthquakeViewCell.xib */,
+				84F9D60F2B0C9371000798E7 /* EarthquakeViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		A9BC2C9C97CA5431CD08A36A /* Frameworks */ = {
@@ -909,15 +1052,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C96B702B0C07E900C8B876 /* Nunito-SemiBold.ttf in Resources */,
+				8440D6D82B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96C042B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
 				84C96B5D2B0C057700C8B876 /* Localizable.strings in Resources */,
 				84C96B6A2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
+				84F9D5FF2B0C8955000798E7 /* EarthquakesView.storyboard in Resources */,
 				84C96BED2B0C294C00C8B876 /* ACLNavigationBar.xib in Resources */,
 				84C96B732B0C07E900C8B876 /* Nunito-Bold.ttf in Resources */,
 				84C96C362B0C3D8800C8B876 /* ACLTextField.xib in Resources */,
 				84C96B672B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BFF2B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
 				84C96C532B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
+				84F9D60C2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */,
 				84C96BB82B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96B6D2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
 				84C96B2B2B0BE02100C8B876 /* Assets.xcassets in Resources */,
@@ -932,10 +1078,13 @@
 				84C96B682B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BEE2B0C294C00C8B876 /* ACLNavigationBar.xib in Resources */,
 				84C96C542B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
+				84F9D6002B0C8955000798E7 /* EarthquakesView.storyboard in Resources */,
 				84C96B6E2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
 				84C96C002B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
 				84C96B6B2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
 				84C96B742B0C07E900C8B876 /* Nunito-Bold.ttf in Resources */,
+				84F9D60D2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */,
+				8440D6D92B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96BB92B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96C052B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
 				84C96B712B0C07E900C8B876 /* Nunito-SemiBold.ttf in Resources */,
@@ -951,10 +1100,13 @@
 				84C96B692B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BEF2B0C294C00C8B876 /* ACLNavigationBar.xib in Resources */,
 				84C96C552B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
+				84F9D6012B0C8955000798E7 /* EarthquakesView.storyboard in Resources */,
 				84C96B6F2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
 				84C96C012B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
 				84C96B6C2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
 				84C96B752B0C07E900C8B876 /* Nunito-Bold.ttf in Resources */,
+				84F9D60E2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */,
+				8440D6DA2B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96BBA2B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96C062B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
 				84C96B722B0C07E900C8B876 /* Nunito-SemiBold.ttf in Resources */,
@@ -1073,8 +1225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C96B8F2B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
+				84F9D6042B0C89E6000798E7 /* EarthquakesController.swift in Sources */,
 				84C96B8B2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C152B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
+				84F9D5F62B0C8762000798E7 /* EventService.swift in Sources */,
 				84F9D58B2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				84F9D5902B0C5626000798E7 /* ProgressView.swift in Sources */,
 				84C96C462B0C3EA600C8B876 /* ACLKeyboardType.swift in Sources */,
@@ -1082,9 +1236,13 @@
 				84C96C4E2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */,
 				84C96B222B0BE01F00C8B876 /* AppDelegate.swift in Sources */,
 				84C96C082B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
+				84F9D6102B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */,
+				84F9D5E52B0C8638000798E7 /* Earthquake.swift in Sources */,
 				84C96B872B0C0A3000C8B876 /* Observable.swift in Sources */,
+				84F9D5F22B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */,
 				84C96C1D2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96BA32B0C166300C8B876 /* BaseViewController.swift in Sources */,
+				84F9D5DC2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */,
 				84C96B242B0BE01F00C8B876 /* SceneDelegate.swift in Sources */,
 				84F9D5BE2B0C7855000798E7 /* NetworkManager.swift in Sources */,
 				84C96B7B2B0C09F000C8B876 /* Protocols.swift in Sources */,
@@ -1096,24 +1254,31 @@
 				84F9D5A12B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
 				84F9D5CF2B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
 				84C96C0D2B0C336E00C8B876 /* ACLPopUpButtonType.swift in Sources */,
+				84F9D5FA2B0C8789000798E7 /* EventServiceImpl.swift in Sources */,
 				84C96BCF2B0C211700C8B876 /* ImageManager.swift in Sources */,
 				84C96BD32B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96BAC2B0C1A8300C8B876 /* UIView+Extension.swift in Sources */,
 				84C96BCB2B0C211000C8B876 /* ColorManager.swift in Sources */,
 				84C96BA72B0C167300C8B876 /* NavigationController.swift in Sources */,
+				84F9D5EE2B0C86A3000798E7 /* GetEarthquakeParam.swift in Sources */,
 				84F9D5982B0C6549000798E7 /* SignInViewModel.swift in Sources */,
 				84C96C112B0C338100C8B876 /* ACLPopUpAction.swift in Sources */,
+				8440D6E02B0CA41300123BB2 /* SelectedDate.swift in Sources */,
 				84C96BE02B0C21C000C8B876 /* ACLButton.swift in Sources */,
 				84C96B9B2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				84C96C2A2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
+				84F9D6142B0C95E2000798E7 /* Double+Extension.swift in Sources */,
 				84C96B832B0C0A1600C8B876 /* Constants.swift in Sources */,
 				84F9D5B12B0C775D000798E7 /* UserRepository.swift in Sources */,
 				84F9D5C72B0C79A9000798E7 /* UserService.swift in Sources */,
 				84C96C422B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
+				84F9D5D32B0C80C6000798E7 /* Endpoint.swift in Sources */,
 				84F9D59A2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
+				84F9D5D72B0C80F7000798E7 /* EnvironmentManager.swift in Sources */,
 				84F9D5892B0C52D6000798E7 /* SignInController.swift in Sources */,
 				84C96C212B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
 				84C96C3E2B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
+				84F9D5E92B0C867A000798E7 /* EventRepository.swift in Sources */,
 				84C96C3A2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96BE82B0C222A00C8B876 /* ACLButtonCodes.swift in Sources */,
 				84C96BE42B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
@@ -1122,13 +1287,16 @@
 				84F9D5BA2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
 				84F9D5A62B0C66E2000798E7 /* LogInParam.swift in Sources */,
 				84C96C2E2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
+				8440D6DC2B0CA0A900123BB2 /* FilterViewData.swift in Sources */,
 				84C96B972B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84F9D5CB2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
+				8440D6D42B0C9F9600123BB2 /* FiltersController.swift in Sources */,
 				84C96BD72B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96BB02B0C1BDC00C8B876 /* SplashController.swift in Sources */,
 				84F9D5B62B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84C96BF92B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
 				84C96BC62B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
+				84F9D6082B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */,
 				84C96C262B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96C192B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
 				84C96BB42B0C1C5500C8B876 /* Storyboarded.swift in Sources */,
@@ -1143,9 +1311,11 @@
 				84C96C272B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96BD42B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96B392B0BE02100C8B876 /* ACLTCTests.swift in Sources */,
+				84F9D6092B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */,
 				84F9D5B22B0C775D000798E7 /* UserRepository.swift in Sources */,
 				84C96BF62B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84C96BBE2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
+				84F9D5EF2B0C86A3000798E7 /* GetEarthquakeParam.swift in Sources */,
 				84C96C332B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
 				84C96BAD2B0C1A8300C8B876 /* UIView+Extension.swift in Sources */,
 				84C96BB52B0C1C5500C8B876 /* Storyboarded.swift in Sources */,
@@ -1158,6 +1328,7 @@
 				84F9D59E2B0C6579000798E7 /* SignInViewModel.swift in Sources */,
 				84F9D5BB2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
 				84C96BE52B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
+				84F9D6152B0C95E2000798E7 /* Double+Extension.swift in Sources */,
 				84C96BCC2B0C211000C8B876 /* ColorManager.swift in Sources */,
 				84F9D5A72B0C66E2000798E7 /* LogInParam.swift in Sources */,
 				84C96C3F2B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
@@ -1166,37 +1337,50 @@
 				84F9D5912B0C5626000798E7 /* ProgressView.swift in Sources */,
 				84F9D5D02B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
 				84C96BFA2B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
+				84F9D5D82B0C80F7000798E7 /* EnvironmentManager.swift in Sources */,
+				84F9D5F32B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */,
 				84C96B9C2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				84C96C4F2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */,
 				84F9D5A22B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
 				84C96C092B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
+				84F9D5DD2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */,
+				8440D6D52B0C9F9B00123BB2 /* FiltersController.swift in Sources */,
 				84F9D59B2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
 				84F9D5952B0C5636000798E7 /* ProgressFacade.swift in Sources */,
 				84C96BD02B0C211700C8B876 /* ImageManager.swift in Sources */,
 				84F9D5C82B0C79A9000798E7 /* UserService.swift in Sources */,
+				84F9D5D42B0C80C6000798E7 /* Endpoint.swift in Sources */,
+				84F9D6052B0C89E6000798E7 /* EarthquakesController.swift in Sources */,
 				84C96B982B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84C96C432B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
 				84C96B882B0C0A3000C8B876 /* Observable.swift in Sources */,
 				84C96C3B2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96C162B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
+				8440D6E12B0CA41300123BB2 /* SelectedDate.swift in Sources */,
 				84F9D5CC2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84C96B802B0C0A0400C8B876 /* StoryboardIds.swift in Sources */,
 				84C96B902B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
 				84C96BDC2B0C218400C8B876 /* UITableView+Extension.swift in Sources */,
 				84C96BD82B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96C2F2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
+				84F9D5FB2B0C8789000798E7 /* EventServiceImpl.swift in Sources */,
 				84F9D5B72B0C77B5000798E7 /* CustomError.swift in Sources */,
+				84F9D5E62B0C8638000798E7 /* Earthquake.swift in Sources */,
+				84F9D5EA2B0C867A000798E7 /* EventRepository.swift in Sources */,
 				84C96C1A2B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
 				84C96C122B0C338100C8B876 /* ACLPopUpAction.swift in Sources */,
 				84C96C1E2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96B8C2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
+				84F9D6112B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */,
 				84C96BF22B0C296900C8B876 /* ACLNavigationBar.swift in Sources */,
 				84F9D58C2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				84C96B7C2B0C09F000C8B876 /* Protocols.swift in Sources */,
+				8440D6DD2B0CA0A900123BB2 /* FilterViewData.swift in Sources */,
 				84C96BB12B0C1BDC00C8B876 /* SplashController.swift in Sources */,
 				84C96B842B0C0A1600C8B876 /* Constants.swift in Sources */,
 				84F9D5BF2B0C7855000798E7 /* NetworkManager.swift in Sources */,
 				84C96C2B2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
+				84F9D5F72B0C8762000798E7 /* EventService.swift in Sources */,
 				84C96BE92B0C222A00C8B876 /* ACLButtonCodes.swift in Sources */,
 				84C96BE12B0C21C000C8B876 /* ACLButton.swift in Sources */,
 			);
@@ -1207,6 +1391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F9D5C02B0C7855000798E7 /* NetworkManager.swift in Sources */,
+				84F9D5FC2B0C8789000798E7 /* EventServiceImpl.swift in Sources */,
 				84C96B992B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84C96B852B0C0A1600C8B876 /* Constants.swift in Sources */,
 				84C96C172B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
@@ -1217,11 +1402,14 @@
 				84C96B7D2B0C09F000C8B876 /* Protocols.swift in Sources */,
 				84C96C0A2B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
 				84F9D5CD2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
+				84F9D5D52B0C80C6000798E7 /* Endpoint.swift in Sources */,
 				84C96B8D2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C1F2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96BA52B0C166300C8B876 /* BaseViewController.swift in Sources */,
 				84C96B452B0BE02200C8B876 /* ACLTCUITestsLaunchTests.swift in Sources */,
+				8440D6D62B0C9F9B00123BB2 /* FiltersController.swift in Sources */,
 				84C96B9D2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
+				8440D6DE2B0CA0A900123BB2 /* FilterViewData.swift in Sources */,
 				84C96BBF2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
 				84F9D5C92B0C79A9000798E7 /* UserService.swift in Sources */,
 				84C96C342B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
@@ -1229,6 +1417,7 @@
 				84C96C4C2B0C3EB700C8B876 /* ACLTextFieldState.swift in Sources */,
 				84C96C0F2B0C336E00C8B876 /* ACLPopUpButtonType.swift in Sources */,
 				84C96BD12B0C211700C8B876 /* ImageManager.swift in Sources */,
+				84F9D6122B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */,
 				84C96BD52B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96BAE2B0C1A8300C8B876 /* UIView+Extension.swift in Sources */,
 				84C96BCD2B0C211000C8B876 /* ColorManager.swift in Sources */,
@@ -1241,31 +1430,42 @@
 				84C96C2C2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
 				84C96B892B0C0A3000C8B876 /* Observable.swift in Sources */,
 				84C96C442B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
+				84F9D5F82B0C8762000798E7 /* EventService.swift in Sources */,
+				84F9D6062B0C89E6000798E7 /* EarthquakesController.swift in Sources */,
 				84F9D5922B0C5626000798E7 /* ProgressView.swift in Sources */,
+				84F9D5F42B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */,
 				84F9D59C2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
+				84F9D5DE2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */,
 				84C96C232B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
 				84C96C402B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
 				84C96C3C2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96BEA2B0C222A00C8B876 /* ACLButtonCodes.swift in Sources */,
 				84C96BE62B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
+				84F9D5EB2B0C867A000798E7 /* EventRepository.swift in Sources */,
 				84F9D5B32B0C775D000798E7 /* UserRepository.swift in Sources */,
 				84C96BF72B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84F9D5B82B0C77B5000798E7 /* CustomError.swift in Sources */,
+				84F9D60A2B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */,
 				84C96B812B0C0A0400C8B876 /* StoryboardIds.swift in Sources */,
 				84C96C302B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
 				84C96B912B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
 				84F9D5A82B0C66E2000798E7 /* LogInParam.swift in Sources */,
+				8440D6E22B0CA41300123BB2 /* SelectedDate.swift in Sources */,
 				84C96BD92B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96BB22B0C1BDC00C8B876 /* SplashController.swift in Sources */,
 				84C96BFB2B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
+				84F9D6162B0C95E2000798E7 /* Double+Extension.swift in Sources */,
+				84F9D5E72B0C8638000798E7 /* Earthquake.swift in Sources */,
 				84F9D58D2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				84C96BC82B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
 				84C96C282B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96C1B2B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
 				84C96BB62B0C1C5500C8B876 /* Storyboarded.swift in Sources */,
 				84C96BDD2B0C218400C8B876 /* UITableView+Extension.swift in Sources */,
+				84F9D5D92B0C80F7000798E7 /* EnvironmentManager.swift in Sources */,
 				84F9D5D12B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
 				84F9D5A32B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
+				84F9D5F02B0C86A3000798E7 /* GetEarthquakeParam.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

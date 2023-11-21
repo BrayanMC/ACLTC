@@ -11,6 +11,6 @@ struct StoryboardIds {
     static let SignUp = "SignUpView"
     static let Earthquakes = "EarthquakesView"
     static let Detail = "DetailView"
-    static let Filter = "FilterView"
+    static let Filters = "FiltersView"
     static let ACLPopUp = "ACLPopUp"
 }

@@ -91,7 +91,7 @@ class SignInController: BaseViewController, Storyboarded {
             guard self != nil else { return }
             guard let _result = result else { return }
             if (_result) {
-                debugPrint("go to next view ✅")
+                self?.coordinator?.goToEarthquakesView()
             }
         }
         
@@ -106,12 +106,14 @@ class SignInController: BaseViewController, Storyboarded {
         let notEmpty = !emailACLTextField.getTextValue().isEmpty && !passwordACLTextField.getTextValue().isEmpty
         let notErrors = !emailACLTextField.hasError && !passwordACLTextField.hasError
         if (notEmpty && notErrors) {
-            viewModel.logIn(
-                LogInParam(
-                    email: emailACLTextField.getTextValue(),
-                    password: passwordACLTextField.getTextValue()
+            DispatchQueue.main.async {
+                self.viewModel.logIn(
+                    LogInParam(
+                        email: self.emailACLTextField.getTextValue(),
+                        password: self.passwordACLTextField.getTextValue()
+                    )
                 )
-            )
+            }
         }
     }
     

@@ -28,4 +28,11 @@ public class UtilsManager {
             return Date()
         }
     }
+    
+    public static func getDateFormat(date: Date, format: String) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "es")
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: date)
+    }
 }

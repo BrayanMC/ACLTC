@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SkeletonView
 
 extension UIView {
     
@@ -169,5 +170,20 @@ extension UIView {
         self.clipsToBounds = true
         self.layer.cornerRadius = radius
         self.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+    }
+    
+    public func isShimmer(_ isActive: Bool, cornerRadius: Float = 0, height: CGFloat = 0) {
+        if isActive {
+            if (height > 0) {
+                SkeletonAppearance.default.multilineHeight = height
+            }
+            self.skeletonCornerRadius = cornerRadius
+            self.isSkeletonable = true
+            (self as? UILabel)?.linesCornerRadius = Int(cornerRadius)
+            let skeletonLayer = SkeletonGradient(baseColor: ColorManager.shared.primary200)
+            self.showAnimatedGradientSkeleton(usingGradient: skeletonLayer)
+        } else {
+            self.hideSkeleton()
+        }
     }
 }

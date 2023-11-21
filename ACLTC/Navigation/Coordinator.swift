@@ -31,6 +31,20 @@ class Coordinator {
         navigationController.setViewControllers([vc], animated: true)
     }
     
+    func goToEarthquakesView() {
+        let vc = EarthquakesController.instantiate(StoryboardIds.Earthquakes)
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
+    
+    func goToFiltersView(viewData: FilterViewData) {
+        let vc = FiltersController.instantiate(StoryboardIds.Filters)
+        vc.coordinator = self
+        vc.viewData = viewData
+        vc.modalPresentationStyle = .overCurrentContext
+        navigationController.present(vc, animated: true)
+    }
+    
     func showACLPopUp(viewData: ACLPopUpViewData) {
         let vc = ACLPopUpController.instantiate(StoryboardIds.ACLPopUp)
         vc.coordinator = self
