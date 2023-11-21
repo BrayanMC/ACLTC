@@ -30,9 +30,7 @@ class BaseViewController: UIViewController {
         view.dismissKeyboard()
     }
     
-    /*
-     internal func showErrorPopUp(viewData: CambixPopUpViewData) {
-         coordinator?.showCambixPopUp(viewData: viewData)
-     }
-     */
+    internal func showErrorPopUp(viewData: ACLPopUpViewData) {
+        coordinator?.showACLPopUp(viewData: viewData)
+    }
 }

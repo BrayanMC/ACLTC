@@ -26,6 +26,16 @@ class Coordinator {
     }
     
     func goToLogInView() {
-        
+        let vc = SignInController.instantiate(StoryboardIds.SignIn)
+        vc.coordinator = self
+        navigationController.setViewControllers([vc], animated: true)
+    }
+    
+    func showACLPopUp(viewData: ACLPopUpViewData) {
+        let vc = ACLPopUpController.instantiate(StoryboardIds.ACLPopUp)
+        vc.coordinator = self
+        vc.viewData = viewData
+        vc.modalPresentationStyle = .overCurrentContext
+        navigationController.present(vc, animated: true)
     }
 }

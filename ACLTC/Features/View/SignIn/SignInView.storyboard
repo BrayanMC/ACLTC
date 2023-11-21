@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Bold.ttf">
+            <string>Nunito-Bold</string>
+        </array>
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Sign In Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="SignInController" id="Y6W-OH-hqX" customClass="SignInController" customModule="ACLTC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A8b-nQ-jTG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHm-Bu-RC6">
+                                        <rect key="frame" x="16" y="80" width="382" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="wxZ-d3-BmT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                                        <color key="textColor" name="Black400"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inicia sesión" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HZ-5k-egg">
+                                        <rect key="frame" x="16" y="102" width="382" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="JrP-k2-EIJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="30"/>
+                                        <color key="textColor" name="Black400"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i6I-P5-KMD" customClass="ACLTextField" customModule="ACLTC" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="161" width="382" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="73" id="Lhr-K4-t6n"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gW8-wf-Pwh" customClass="ACLTextField" customModule="ACLTC" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="250" width="382" height="73"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="73" id="jRN-Dc-FdX"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1n-mX-6Bv" customClass="ACLButton" customModule="ACLTC" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="656" width="382" height="48"/>
+                                        <color key="backgroundColor" name="Red"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="HiC-aZ-eoi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Nunito-Bold" family="Nunito" pointSize="16"/>
+                                        <state key="normal" title="Ingresar">
+                                            <color key="titleColor" name="White"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="code">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="signInACLButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="WJk-Dh-KGv"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Aún no tienes una cuenta? Regístrate aquí" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9q4-w8-M9v">
+                                        <rect key="frame" x="53" y="347" width="308.33333333333331" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="c1Z-KP-87r"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                                        <color key="textColor" name="Black300"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="i6I-P5-KMD" secondAttribute="trailing" constant="16" id="FVL-hv-Spi"/>
+                                    <constraint firstItem="gW8-wf-Pwh" firstAttribute="top" secondItem="i6I-P5-KMD" secondAttribute="bottom" constant="16" id="Gdl-xm-Y8L"/>
+                                    <constraint firstAttribute="bottom" secondItem="n1n-mX-6Bv" secondAttribute="bottom" constant="32" id="JS3-H5-5qR"/>
+                                    <constraint firstItem="i6I-P5-KMD" firstAttribute="top" secondItem="8HZ-5k-egg" secondAttribute="bottom" constant="24" id="NrM-iS-Wln"/>
+                                    <constraint firstItem="9q4-w8-M9v" firstAttribute="centerX" secondItem="A8b-nQ-jTG" secondAttribute="centerX" id="OAB-mw-s0r"/>
+                                    <constraint firstItem="gW8-wf-Pwh" firstAttribute="leading" secondItem="A8b-nQ-jTG" secondAttribute="leading" constant="16" id="QBD-pq-Gay"/>
+                                    <constraint firstItem="MHm-Bu-RC6" firstAttribute="leading" secondItem="A8b-nQ-jTG" secondAttribute="leading" constant="16" id="WCs-I3-iQo"/>
+                                    <constraint firstAttribute="trailing" secondItem="gW8-wf-Pwh" secondAttribute="trailing" constant="16" id="WjV-2d-Zlb"/>
+                                    <constraint firstItem="8HZ-5k-egg" firstAttribute="top" secondItem="MHm-Bu-RC6" secondAttribute="bottom" constant="2" id="bmQ-sU-l02"/>
+                                    <constraint firstItem="n1n-mX-6Bv" firstAttribute="leading" secondItem="A8b-nQ-jTG" secondAttribute="leading" constant="16" id="fiE-hD-cyu"/>
+                                    <constraint firstItem="i6I-P5-KMD" firstAttribute="leading" secondItem="A8b-nQ-jTG" secondAttribute="leading" constant="16" id="iBv-s5-5qV"/>
+                                    <constraint firstAttribute="trailing" secondItem="8HZ-5k-egg" secondAttribute="trailing" constant="16" id="iMJ-Xr-uMz"/>
+                                    <constraint firstItem="8HZ-5k-egg" firstAttribute="leading" secondItem="A8b-nQ-jTG" secondAttribute="leading" constant="16" id="mIi-p4-20W"/>
+                                    <constraint firstAttribute="trailing" secondItem="MHm-Bu-RC6" secondAttribute="trailing" constant="16" id="mLT-0t-bWH"/>
+                                    <constraint firstItem="9q4-w8-M9v" firstAttribute="top" secondItem="gW8-wf-Pwh" secondAttribute="bottom" constant="24" id="mhx-KB-VZ3"/>
+                                    <constraint firstItem="n1n-mX-6Bv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="9q4-w8-M9v" secondAttribute="bottom" constant="24" id="smE-Qf-RwA"/>
+                                    <constraint firstAttribute="trailing" secondItem="n1n-mX-6Bv" secondAttribute="trailing" constant="16" id="vQO-fY-hgj"/>
+                                    <constraint firstItem="MHm-Bu-RC6" firstAttribute="top" secondItem="A8b-nQ-jTG" secondAttribute="top" constant="80" id="wXd-sK-5cK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A8b-nQ-jTG" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="19P-59-z12"/>
+                            <constraint firstItem="A8b-nQ-jTG" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="cdN-oe-9fE"/>
+                            <constraint firstItem="A8b-nQ-jTG" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="luQ-hy-qnk"/>
+                            <constraint firstItem="A8b-nQ-jTG" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="rTH-1D-ycs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailACLTextField" destination="i6I-P5-KMD" id="8WC-Dc-Ba3"/>
+                        <outlet property="passwordACLTextField" destination="gW8-wf-Pwh" id="3bI-mz-cFG"/>
+                        <outlet property="signUpLabel" destination="9q4-w8-M9v" id="khC-zR-gGB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Black300">
+            <color red="0.38400000333786011" green="0.38400000333786011" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Black400">
+            <color red="0.1289999932050705" green="0.1289999932050705" blue="0.1289999932050705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Red">
+            <color red="1" green="0.30199998617172241" blue="0.36899998784065247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

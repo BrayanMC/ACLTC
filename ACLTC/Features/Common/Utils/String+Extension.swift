@@ -117,32 +117,6 @@ extension String {
             .addMultipleTextAttributes(textsToFind: texts, color: color, font: font, isUnderline: isUnderline)
     }
     
-    public func currencyInputFormatting() -> String {
-        var number: NSNumber!
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .decimal
-        formatter.locale = NSLocale(localeIdentifier: "es_PE") as Locale?
-        formatter.maximumFractionDigits = GlobalConstants.maxByDefaultDecimalsInAmount
-        formatter.minimumFractionDigits = GlobalConstants.maxByDefaultDecimalsInAmount
-        formatter.currencySymbol = ""
-        formatter.groupingSeparator = ""
-        var amountWithPrefix = self
-        
-        /// remove from String: "$", ".", ","
-        let regex = try! NSRegularExpression(pattern: "[^0-9]", options: .caseInsensitive)
-        amountWithPrefix = regex.stringByReplacingMatches(in: amountWithPrefix, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, self.count), withTemplate: "")
-        
-        let double = (amountWithPrefix as NSString).doubleValue
-        number = NSNumber(value: (double / 100))
-        
-        /// if first number is 0 or all numbers were deleted
-        guard number != 0 as NSNumber else {
-            return "0.00"
-        }
-        
-        return formatter.string(from: number)!
-    }
-    
     public var isAlphanumeric: Bool {
         return !isEmpty && range(of: "[^a-zA-Z0-9]", options: .regularExpression) == nil
     }
@@ -276,17 +250,6 @@ extension String {
     
     public func removeWhitespaceAndDashes() -> String {
         self.replacingOccurrences(of: "-", with: "").replacingOccurrences(of: " ", with: "")
-    }
-    
-    public func toCurrencySymbol() -> String {
-        switch self {
-        case CurrencyCode.pen.rawValue:
-            return "S/"
-        case CurrencyCode.dollar.rawValue:
-            return "$"
-        default:
-            return ""
-        }
     }
     
     public func dateUnformattedToDateTimePattern() -> String {

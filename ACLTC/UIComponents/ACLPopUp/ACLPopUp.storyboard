@@ -114,7 +114,7 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="U59-mK-RO3" firstAttribute="centerY" secondItem="Pad-gi-ECr" secondAttribute="centerY" id="Cv6-re-wuy"/>
                             <constraint firstItem="Pad-gi-ECr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="JXq-tU-ghl"/>
@@ -132,6 +132,8 @@
                         <outlet property="titleLabel" destination="mFN-SW-XRs" id="kCP-G6-b2K"/>
                         <outlet property="viewBackground" destination="Pad-gi-ECr" id="ORP-7g-x7Y"/>
                         <outlet property="viewForm" destination="U59-mK-RO3" id="DQ8-Md-Kd4"/>
+                        <outletCollection property="actionsSideConstraints" destination="6rQ-iw-lLU" collectionClass="NSMutableArray" id="K97-sM-rCq"/>
+                        <outletCollection property="actionsSideConstraints" destination="OpC-GK-XKC" collectionClass="NSMutableArray" id="uyX-Qd-SMf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -141,13 +143,13 @@
     </scenes>
     <resources>
         <namedColor name="BackgroundBottomSheet">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.1289999932050705" green="0.1289999932050705" blue="0.1289999932050705" alpha="0.60000002384185791" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Black300">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.38400000333786011" green="0.38400000333786011" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Black400">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.1289999932050705" green="0.1289999932050705" blue="0.1289999932050705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

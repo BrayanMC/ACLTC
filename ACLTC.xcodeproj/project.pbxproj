@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37B2814FCEE0DC1BC915622A /* Pods_ACLTCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0E08B212AF7615CAFA98A /* Pods_ACLTCTests.framework */; };
 		84C96B222B0BE01F00C8B876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B212B0BE01F00C8B876 /* AppDelegate.swift */; };
 		84C96B242B0BE01F00C8B876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */; };
 		84C96B2B2B0BE02100C8B876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C96B2A2B0BE02100C8B876 /* Assets.xcassets */; };
@@ -178,6 +179,54 @@
 		84C96C4E2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96C4D2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift */; };
 		84C96C4F2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96C4D2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift */; };
 		84C96C502B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96C4D2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift */; };
+		84C96C532B0C4CD600C8B876 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96C522B0C4CD600C8B876 /* SignInView.storyboard */; };
+		84C96C542B0C4CD600C8B876 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96C522B0C4CD600C8B876 /* SignInView.storyboard */; };
+		84C96C552B0C4CD600C8B876 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96C522B0C4CD600C8B876 /* SignInView.storyboard */; };
+		84F9D5892B0C52D6000798E7 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5882B0C52D6000798E7 /* SignInController.swift */; };
+		84F9D58B2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */; };
+		84F9D58C2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */; };
+		84F9D58D2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */; };
+		84F9D5902B0C5626000798E7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58F2B0C5626000798E7 /* ProgressView.swift */; };
+		84F9D5912B0C5626000798E7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58F2B0C5626000798E7 /* ProgressView.swift */; };
+		84F9D5922B0C5626000798E7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58F2B0C5626000798E7 /* ProgressView.swift */; };
+		84F9D5942B0C5636000798E7 /* ProgressFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5932B0C5636000798E7 /* ProgressFacade.swift */; };
+		84F9D5952B0C5636000798E7 /* ProgressFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5932B0C5636000798E7 /* ProgressFacade.swift */; };
+		84F9D5962B0C5636000798E7 /* ProgressFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5932B0C5636000798E7 /* ProgressFacade.swift */; };
+		84F9D5982B0C6549000798E7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5972B0C6549000798E7 /* SignInViewModel.swift */; };
+		84F9D59A2B0C6575000798E7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5992B0C6575000798E7 /* BaseViewModel.swift */; };
+		84F9D59B2B0C6575000798E7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5992B0C6575000798E7 /* BaseViewModel.swift */; };
+		84F9D59C2B0C6575000798E7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5992B0C6575000798E7 /* BaseViewModel.swift */; };
+		84F9D59D2B0C6579000798E7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5972B0C6549000798E7 /* SignInViewModel.swift */; };
+		84F9D59E2B0C6579000798E7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5972B0C6549000798E7 /* SignInViewModel.swift */; };
+		84F9D5A12B0C65C0000798E7 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5A02B0C65C0000798E7 /* ErrorResponse.swift */; };
+		84F9D5A22B0C65C0000798E7 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5A02B0C65C0000798E7 /* ErrorResponse.swift */; };
+		84F9D5A32B0C65C0000798E7 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5A02B0C65C0000798E7 /* ErrorResponse.swift */; };
+		84F9D5A62B0C66E2000798E7 /* LogInParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5A52B0C66E2000798E7 /* LogInParam.swift */; };
+		84F9D5A72B0C66E2000798E7 /* LogInParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5A52B0C66E2000798E7 /* LogInParam.swift */; };
+		84F9D5A82B0C66E2000798E7 /* LogInParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5A52B0C66E2000798E7 /* LogInParam.swift */; };
+		84F9D5B12B0C775D000798E7 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B02B0C775D000798E7 /* UserRepository.swift */; };
+		84F9D5B22B0C775D000798E7 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B02B0C775D000798E7 /* UserRepository.swift */; };
+		84F9D5B32B0C775D000798E7 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B02B0C775D000798E7 /* UserRepository.swift */; };
+		84F9D5B62B0C77B5000798E7 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B52B0C77B5000798E7 /* CustomError.swift */; };
+		84F9D5B72B0C77B5000798E7 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B52B0C77B5000798E7 /* CustomError.swift */; };
+		84F9D5B82B0C77B5000798E7 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B52B0C77B5000798E7 /* CustomError.swift */; };
+		84F9D5BA2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */; };
+		84F9D5BB2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */; };
+		84F9D5BC2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */; };
+		84F9D5BE2B0C7855000798E7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5BD2B0C7855000798E7 /* NetworkManager.swift */; };
+		84F9D5BF2B0C7855000798E7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5BD2B0C7855000798E7 /* NetworkManager.swift */; };
+		84F9D5C02B0C7855000798E7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5BD2B0C7855000798E7 /* NetworkManager.swift */; };
+		84F9D5C72B0C79A9000798E7 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5C62B0C79A9000798E7 /* UserService.swift */; };
+		84F9D5C82B0C79A9000798E7 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5C62B0C79A9000798E7 /* UserService.swift */; };
+		84F9D5C92B0C79A9000798E7 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5C62B0C79A9000798E7 /* UserService.swift */; };
+		84F9D5CB2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */; };
+		84F9D5CC2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */; };
+		84F9D5CD2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */; };
+		84F9D5CF2B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */; };
+		84F9D5D02B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */; };
+		84F9D5D12B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */; };
+		A670CBB60E55DE4FDD79100B /* Pods_ACLTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4606E844602983F1096AC0E3 /* Pods_ACLTC.framework */; };
+		C2FA2DD72F0D5CFB1B9C54EC /* Pods_ACLTC_ACLTCUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F6FA1CC757AB03B2CE3F6A /* Pods_ACLTC_ACLTCUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +247,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4606E844602983F1096AC0E3 /* Pods_ACLTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACLTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C96B1E2B0BE01F00C8B876 /* ACLTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACLTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C96B212B0BE01F00C8B876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -263,6 +313,30 @@
 		84C96C452B0C3EA600C8B876 /* ACLKeyboardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACLKeyboardType.swift; sourceTree = "<group>"; };
 		84C96C492B0C3EB700C8B876 /* ACLTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACLTextFieldState.swift; sourceTree = "<group>"; };
 		84C96C4D2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACLTextField+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
+		84C96C522B0C4CD600C8B876 /* SignInView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInView.storyboard; sourceTree = "<group>"; };
+		84F9D5882B0C52D6000798E7 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
+		84F9D58F2B0C5626000798E7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		84F9D5932B0C5636000798E7 /* ProgressFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressFacade.swift; sourceTree = "<group>"; };
+		84F9D5972B0C6549000798E7 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		84F9D5992B0C6575000798E7 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		84F9D5A02B0C65C0000798E7 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		84F9D5A52B0C66E2000798E7 /* LogInParam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInParam.swift; sourceTree = "<group>"; };
+		84F9D5B02B0C775D000798E7 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		84F9D5B52B0C77B5000798E7 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryImpl.swift; sourceTree = "<group>"; };
+		84F9D5BD2B0C7855000798E7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		84F9D5C62B0C79A9000798E7 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceImpl.swift; sourceTree = "<group>"; };
+		84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		95E40379ECCB3E656E7ACB97 /* Pods-ACLTCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTCTests.debug.xcconfig"; path = "Target Support Files/Pods-ACLTCTests/Pods-ACLTCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9F7A60693B725DF08212208 /* Pods-ACLTC-ACLTCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTC-ACLTCUITests.debug.xcconfig"; path = "Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F6FA1CC757AB03B2CE3F6A /* Pods_ACLTC_ACLTCUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACLTC_ACLTCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3104BA94B8B9D23D9E75E52 /* Pods-ACLTC-ACLTCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTC-ACLTCUITests.release.xcconfig"; path = "Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B8123DB447AA8B6304A59B91 /* Pods-ACLTCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTCTests.release.xcconfig"; path = "Target Support Files/Pods-ACLTCTests/Pods-ACLTCTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C0E08B212AF7615CAFA98A /* Pods_ACLTCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACLTCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F529FE0B7366FDD7373FA0FB /* Pods-ACLTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTC.release.xcconfig"; path = "Target Support Files/Pods-ACLTC/Pods-ACLTC.release.xcconfig"; sourceTree = "<group>"; };
+		FADCFBEAB9D4521428D684E8 /* Pods-ACLTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLTC.debug.xcconfig"; path = "Target Support Files/Pods-ACLTC/Pods-ACLTC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +344,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A670CBB60E55DE4FDD79100B /* Pods_ACLTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +352,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B2814FCEE0DC1BC915622A /* Pods_ACLTCTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +360,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FA2DD72F0D5CFB1B9C54EC /* Pods_ACLTC_ACLTCUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +374,8 @@
 				84C96B372B0BE02100C8B876 /* ACLTCTests */,
 				84C96B412B0BE02200C8B876 /* ACLTCUITests */,
 				84C96B1F2B0BE01F00C8B876 /* Products */,
+				E1B63532DB2FA192D1C2C32E /* Pods */,
+				A9BC2C9C97CA5431CD08A36A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -349,6 +428,7 @@
 		84C96B512B0C008B00C8B876 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D58E2B0C5620000798E7 /* Progress */,
 				84C96BFD2B0C2D1D00C8B876 /* ACLTextField */,
 				84C96BFC2B0C2D1400C8B876 /* ACLPopUp */,
 				84C96BEB2B0C293100C8B876 /* Navigations */,
@@ -379,6 +459,8 @@
 		84C96B542B0C00A100C8B876 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5C52B0C7991000798E7 /* Protocols */,
+				84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -386,6 +468,8 @@
 		84C96B552B0C00A600C8B876 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5AF2B0C7751000798E7 /* Protocols */,
+				84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -393,6 +477,7 @@
 		84C96B562B0C04CC00C8B876 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5A42B0C66D9000798E7 /* Request */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -435,7 +520,10 @@
 		84C96B5B2B0C055200C8B876 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D59F2B0C65B8000798E7 /* Response */,
 				84C96BBB2B0C206900C8B876 /* Common */,
+				84F9D5BD2B0C7855000798E7 /* NetworkManager.swift */,
+				84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -502,6 +590,8 @@
 		84C96B9F2B0C163E00C8B876 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				84F9D5972B0C6549000798E7 /* SignInViewModel.swift */,
+				84F9D5992B0C6575000798E7 /* BaseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -509,6 +599,7 @@
 		84C96BA02B0C164200C8B876 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84C96C512B0C4C2000C8B876 /* SignIn */,
 				84C96BA12B0C164F00C8B876 /* Splash */,
 				84C96BA22B0C166300C8B876 /* BaseViewController.swift */,
 				84C96BA62B0C167300C8B876 /* NavigationController.swift */,
@@ -537,6 +628,7 @@
 				84C96C252B0C3A3E00C8B876 /* UICollectionView+Extension.swift */,
 				84C96C2D2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift */,
 				84C96C312B0C3B7C00C8B876 /* NSMutableString+Extension.swift */,
+				84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -545,6 +637,7 @@
 			isa = PBXGroup;
 			children = (
 				84C96BBC2B0C207000C8B876 /* NetworkMonitor.swift */,
+				84F9D5B52B0C77B5000798E7 /* CustomError.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -625,6 +718,87 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		84C96C512B0C4C2000C8B876 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				84C96C522B0C4CD600C8B876 /* SignInView.storyboard */,
+				84F9D5882B0C52D6000798E7 /* SignInController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		84F9D58E2B0C5620000798E7 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D58F2B0C5626000798E7 /* ProgressView.swift */,
+				84F9D5932B0C5636000798E7 /* ProgressFacade.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		84F9D59F2B0C65B8000798E7 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5A02B0C65C0000798E7 /* ErrorResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		84F9D5A42B0C66D9000798E7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5A92B0C66F4000798E7 /* LogIn */,
+				84F9D5A52B0C66E2000798E7 /* LogInParam.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		84F9D5A92B0C66F4000798E7 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		84F9D5AF2B0C7751000798E7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5B02B0C775D000798E7 /* UserRepository.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		84F9D5C52B0C7991000798E7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84F9D5C62B0C79A9000798E7 /* UserService.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A9BC2C9C97CA5431CD08A36A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4606E844602983F1096AC0E3 /* Pods_ACLTC.framework */,
+				B0F6FA1CC757AB03B2CE3F6A /* Pods_ACLTC_ACLTCUITests.framework */,
+				D8C0E08B212AF7615CAFA98A /* Pods_ACLTCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1B63532DB2FA192D1C2C32E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FADCFBEAB9D4521428D684E8 /* Pods-ACLTC.debug.xcconfig */,
+				F529FE0B7366FDD7373FA0FB /* Pods-ACLTC.release.xcconfig */,
+				A9F7A60693B725DF08212208 /* Pods-ACLTC-ACLTCUITests.debug.xcconfig */,
+				B3104BA94B8B9D23D9E75E52 /* Pods-ACLTC-ACLTCUITests.release.xcconfig */,
+				95E40379ECCB3E656E7ACB97 /* Pods-ACLTCTests.debug.xcconfig */,
+				B8123DB447AA8B6304A59B91 /* Pods-ACLTCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -632,9 +806,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C96B482B0BE02200C8B876 /* Build configuration list for PBXNativeTarget "ACLTC" */;
 			buildPhases = (
+				F2EFB827A114B1E18FE7F003 /* [CP] Check Pods Manifest.lock */,
 				84C96B1A2B0BE01F00C8B876 /* Sources */,
 				84C96B1B2B0BE01F00C8B876 /* Frameworks */,
 				84C96B1C2B0BE01F00C8B876 /* Resources */,
+				30F80D06508813EDFD9D56A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -649,6 +825,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C96B4B2B0BE02200C8B876 /* Build configuration list for PBXNativeTarget "ACLTCTests" */;
 			buildPhases = (
+				9B02502BDD735A2EE1562593 /* [CP] Check Pods Manifest.lock */,
 				84C96B302B0BE02100C8B876 /* Sources */,
 				84C96B312B0BE02100C8B876 /* Frameworks */,
 				84C96B322B0BE02100C8B876 /* Resources */,
@@ -667,9 +844,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84C96B4E2B0BE02200C8B876 /* Build configuration list for PBXNativeTarget "ACLTCUITests" */;
 			buildPhases = (
+				F816B8CE1A0BC50E557F8BCF /* [CP] Check Pods Manifest.lock */,
 				84C96B3A2B0BE02200C8B876 /* Sources */,
 				84C96B3B2B0BE02200C8B876 /* Frameworks */,
 				84C96B3C2B0BE02200C8B876 /* Resources */,
+				1B1D96ADDE6F5C8253B4A054 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -738,6 +917,7 @@
 				84C96C362B0C3D8800C8B876 /* ACLTextField.xib in Resources */,
 				84C96B672B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BFF2B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
+				84C96C532B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
 				84C96BB82B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96B6D2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
 				84C96B2B2B0BE02100C8B876 /* Assets.xcassets in Resources */,
@@ -751,6 +931,7 @@
 				84C96B5E2B0C057700C8B876 /* Localizable.strings in Resources */,
 				84C96B682B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BEE2B0C294C00C8B876 /* ACLNavigationBar.xib in Resources */,
+				84C96C542B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
 				84C96B6E2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
 				84C96C002B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
 				84C96B6B2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
@@ -769,6 +950,7 @@
 				84C96B5F2B0C057700C8B876 /* Localizable.strings in Resources */,
 				84C96B692B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BEF2B0C294C00C8B876 /* ACLNavigationBar.xib in Resources */,
+				84C96C552B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
 				84C96B6F2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
 				84C96C012B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
 				84C96B6C2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
@@ -782,6 +964,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B1D96ADDE6F5C8253B4A054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30F80D06508813EDFD9D56A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B02502BDD735A2EE1562593 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACLTCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EFB827A114B1E18FE7F003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACLTC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F816B8CE1A0BC50E557F8BCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACLTC-ACLTCUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84C96B1A2B0BE01F00C8B876 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -790,6 +1075,8 @@
 				84C96B8F2B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
 				84C96B8B2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C152B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
+				84F9D58B2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
+				84F9D5902B0C5626000798E7 /* ProgressView.swift in Sources */,
 				84C96C462B0C3EA600C8B876 /* ACLKeyboardType.swift in Sources */,
 				84C96B7F2B0C0A0400C8B876 /* StoryboardIds.swift in Sources */,
 				84C96C4E2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */,
@@ -799,23 +1086,32 @@
 				84C96C1D2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96BA32B0C166300C8B876 /* BaseViewController.swift in Sources */,
 				84C96B242B0BE01F00C8B876 /* SceneDelegate.swift in Sources */,
+				84F9D5BE2B0C7855000798E7 /* NetworkManager.swift in Sources */,
 				84C96B7B2B0C09F000C8B876 /* Protocols.swift in Sources */,
 				84C96BBD2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
 				84C96C322B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
 				84C96BF12B0C296900C8B876 /* ACLNavigationBar.swift in Sources */,
+				84F9D5942B0C5636000798E7 /* ProgressFacade.swift in Sources */,
 				84C96C4A2B0C3EB700C8B876 /* ACLTextFieldState.swift in Sources */,
+				84F9D5A12B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
+				84F9D5CF2B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
 				84C96C0D2B0C336E00C8B876 /* ACLPopUpButtonType.swift in Sources */,
 				84C96BCF2B0C211700C8B876 /* ImageManager.swift in Sources */,
 				84C96BD32B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96BAC2B0C1A8300C8B876 /* UIView+Extension.swift in Sources */,
 				84C96BCB2B0C211000C8B876 /* ColorManager.swift in Sources */,
 				84C96BA72B0C167300C8B876 /* NavigationController.swift in Sources */,
+				84F9D5982B0C6549000798E7 /* SignInViewModel.swift in Sources */,
 				84C96C112B0C338100C8B876 /* ACLPopUpAction.swift in Sources */,
 				84C96BE02B0C21C000C8B876 /* ACLButton.swift in Sources */,
 				84C96B9B2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				84C96C2A2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
 				84C96B832B0C0A1600C8B876 /* Constants.swift in Sources */,
+				84F9D5B12B0C775D000798E7 /* UserRepository.swift in Sources */,
+				84F9D5C72B0C79A9000798E7 /* UserService.swift in Sources */,
 				84C96C422B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
+				84F9D59A2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
+				84F9D5892B0C52D6000798E7 /* SignInController.swift in Sources */,
 				84C96C212B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
 				84C96C3E2B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
 				84C96C3A2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
@@ -823,10 +1119,14 @@
 				84C96BE42B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
 				84C96BF52B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84C96B932B0C0CB000C8B876 /* UtilsManager.swift in Sources */,
+				84F9D5BA2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
+				84F9D5A62B0C66E2000798E7 /* LogInParam.swift in Sources */,
 				84C96C2E2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
 				84C96B972B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
+				84F9D5CB2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84C96BD72B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96BB02B0C1BDC00C8B876 /* SplashController.swift in Sources */,
+				84F9D5B62B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84C96BF92B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
 				84C96BC62B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
 				84C96C262B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
@@ -843,6 +1143,7 @@
 				84C96C272B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96BD42B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96B392B0BE02100C8B876 /* ACLTCTests.swift in Sources */,
+				84F9D5B22B0C775D000798E7 /* UserRepository.swift in Sources */,
 				84C96BF62B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84C96BBE2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
 				84C96C332B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
@@ -854,34 +1155,47 @@
 				84C96B942B0C0CB000C8B876 /* UtilsManager.swift in Sources */,
 				84C96C222B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
 				84C96BC72B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
+				84F9D59E2B0C6579000798E7 /* SignInViewModel.swift in Sources */,
+				84F9D5BB2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
 				84C96BE52B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
 				84C96BCC2B0C211000C8B876 /* ColorManager.swift in Sources */,
+				84F9D5A72B0C66E2000798E7 /* LogInParam.swift in Sources */,
 				84C96C3F2B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
 				84C96BA42B0C166300C8B876 /* BaseViewController.swift in Sources */,
 				84C96C472B0C3EA600C8B876 /* ACLKeyboardType.swift in Sources */,
+				84F9D5912B0C5626000798E7 /* ProgressView.swift in Sources */,
+				84F9D5D02B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
 				84C96BFA2B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
 				84C96B9C2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				84C96C4F2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */,
+				84F9D5A22B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
 				84C96C092B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
+				84F9D59B2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
+				84F9D5952B0C5636000798E7 /* ProgressFacade.swift in Sources */,
 				84C96BD02B0C211700C8B876 /* ImageManager.swift in Sources */,
+				84F9D5C82B0C79A9000798E7 /* UserService.swift in Sources */,
 				84C96B982B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84C96C432B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
 				84C96B882B0C0A3000C8B876 /* Observable.swift in Sources */,
 				84C96C3B2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96C162B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
+				84F9D5CC2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84C96B802B0C0A0400C8B876 /* StoryboardIds.swift in Sources */,
 				84C96B902B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
 				84C96BDC2B0C218400C8B876 /* UITableView+Extension.swift in Sources */,
 				84C96BD82B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96C2F2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
+				84F9D5B72B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84C96C1A2B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
 				84C96C122B0C338100C8B876 /* ACLPopUpAction.swift in Sources */,
 				84C96C1E2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96B8C2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96BF22B0C296900C8B876 /* ACLNavigationBar.swift in Sources */,
+				84F9D58C2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				84C96B7C2B0C09F000C8B876 /* Protocols.swift in Sources */,
 				84C96BB12B0C1BDC00C8B876 /* SplashController.swift in Sources */,
 				84C96B842B0C0A1600C8B876 /* Constants.swift in Sources */,
+				84F9D5BF2B0C7855000798E7 /* NetworkManager.swift in Sources */,
 				84C96C2B2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
 				84C96BE92B0C222A00C8B876 /* ACLButtonCodes.swift in Sources */,
 				84C96BE12B0C21C000C8B876 /* ACLButton.swift in Sources */,
@@ -892,20 +1206,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F9D5C02B0C7855000798E7 /* NetworkManager.swift in Sources */,
 				84C96B992B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84C96B852B0C0A1600C8B876 /* Constants.swift in Sources */,
 				84C96C172B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
 				84C96C482B0C3EA600C8B876 /* ACLKeyboardType.swift in Sources */,
 				84C96B952B0C0CB000C8B876 /* UtilsManager.swift in Sources */,
 				84C96C502B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */,
+				84F9D5962B0C5636000798E7 /* ProgressFacade.swift in Sources */,
 				84C96B7D2B0C09F000C8B876 /* Protocols.swift in Sources */,
 				84C96C0A2B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
+				84F9D5CD2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84C96B8D2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C1F2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96BA52B0C166300C8B876 /* BaseViewController.swift in Sources */,
 				84C96B452B0BE02200C8B876 /* ACLTCUITestsLaunchTests.swift in Sources */,
 				84C96B9D2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				84C96BBF2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
+				84F9D5C92B0C79A9000798E7 /* UserService.swift in Sources */,
 				84C96C342B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
 				84C96BF32B0C296900C8B876 /* ACLNavigationBar.swift in Sources */,
 				84C96C4C2B0C3EB700C8B876 /* ACLTextFieldState.swift in Sources */,
@@ -917,27 +1235,37 @@
 				84C96BA92B0C167300C8B876 /* NavigationController.swift in Sources */,
 				84C96C132B0C338100C8B876 /* ACLPopUpAction.swift in Sources */,
 				84C96BE22B0C21C000C8B876 /* ACLButton.swift in Sources */,
+				84F9D59D2B0C6579000798E7 /* SignInViewModel.swift in Sources */,
 				84C96B432B0BE02200C8B876 /* ACLTCUITests.swift in Sources */,
+				84F9D5BC2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
 				84C96C2C2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
 				84C96B892B0C0A3000C8B876 /* Observable.swift in Sources */,
 				84C96C442B0C3E9200C8B876 /* ACLTextFieldType.swift in Sources */,
+				84F9D5922B0C5626000798E7 /* ProgressView.swift in Sources */,
+				84F9D59C2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
 				84C96C232B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
 				84C96C402B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
 				84C96C3C2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96BEA2B0C222A00C8B876 /* ACLButtonCodes.swift in Sources */,
 				84C96BE62B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
+				84F9D5B32B0C775D000798E7 /* UserRepository.swift in Sources */,
 				84C96BF72B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
+				84F9D5B82B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84C96B812B0C0A0400C8B876 /* StoryboardIds.swift in Sources */,
 				84C96C302B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
 				84C96B912B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
+				84F9D5A82B0C66E2000798E7 /* LogInParam.swift in Sources */,
 				84C96BD92B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96BB22B0C1BDC00C8B876 /* SplashController.swift in Sources */,
 				84C96BFB2B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
+				84F9D58D2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				84C96BC82B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
 				84C96C282B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96C1B2B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
 				84C96BB62B0C1C5500C8B876 /* Storyboarded.swift in Sources */,
 				84C96BDD2B0C218400C8B876 /* UITableView+Extension.swift in Sources */,
+				84F9D5D12B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
+				84F9D5A32B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,6 +1401,7 @@
 		};
 		84C96B492B0BE02200C8B876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADCFBEAB9D4521428D684E8 /* Pods-ACLTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1105,6 +1434,7 @@
 		};
 		84C96B4A2B0BE02200C8B876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F529FE0B7366FDD7373FA0FB /* Pods-ACLTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1137,6 +1467,7 @@
 		};
 		84C96B4C2B0BE02200C8B876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E40379ECCB3E656E7ACB97 /* Pods-ACLTCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1156,6 +1487,7 @@
 		};
 		84C96B4D2B0BE02200C8B876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8123DB447AA8B6304A59B91 /* Pods-ACLTCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1175,6 +1507,7 @@
 		};
 		84C96B4F2B0BE02200C8B876 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F7A60693B725DF08212208 /* Pods-ACLTC-ACLTCUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1192,6 +1525,7 @@
 		};
 		84C96B502B0BE02200C8B876 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3104BA94B8B9D23D9E75E52 /* Pods-ACLTC-ACLTCUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
