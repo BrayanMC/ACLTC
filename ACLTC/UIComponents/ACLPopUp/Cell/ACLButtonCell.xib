@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ACLButtonCell" id="MNT-Gu-xRQ" customClass="ACLButtonCell" customModule="ACLTC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="264" height="38"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="264" height="38"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBt-tZ-VP2" customClass="ACLButton" customModule="ACLTC" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="264" height="38"/>
+                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Button"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="code">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="aclButtonTapped:" destination="MNT-Gu-xRQ" eventType="touchUpInside" id="F9C-Hu-fhr"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="TYy-Sr-X9a"/>
+            <constraints>
+                <constraint firstItem="aBt-tZ-VP2" firstAttribute="top" secondItem="MNT-Gu-xRQ" secondAttribute="top" id="1cO-JM-4q0"/>
+                <constraint firstItem="aBt-tZ-VP2" firstAttribute="leading" secondItem="MNT-Gu-xRQ" secondAttribute="leading" id="27u-ve-1aR"/>
+                <constraint firstAttribute="trailing" secondItem="aBt-tZ-VP2" secondAttribute="trailing" id="hKU-78-Hif"/>
+                <constraint firstAttribute="bottom" secondItem="aBt-tZ-VP2" secondAttribute="bottom" id="qnb-eE-nP0"/>
+            </constraints>
+            <size key="customSize" width="343" height="50"/>
+            <connections>
+                <outlet property="aclButton" destination="aBt-tZ-VP2" id="zLD-UY-jdK"/>
+            </connections>
+            <point key="canvasLocation" x="229.71014492753625" y="62.946428571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>

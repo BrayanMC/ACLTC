@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatDisplay-Bold.ttf">
+            <string>RedHatDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ACLNavigationBar" customModule="ACLTC" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="SRc-1K-VPc" id="0Wd-bv-neS"/>
+                <outlet property="barBackButton" destination="L3I-RN-Shd" id="lpA-hb-FGG"/>
+                <outlet property="barDismissButton" destination="Dd9-RH-ub1" id="gbq-k9-Ee7"/>
+                <outlet property="contentView" destination="kcs-Fa-U5w" id="BEs-Es-j5u"/>
+                <outlet property="titleLabel" destination="pdX-zF-QyF" id="5jc-Qg-mKa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kcs-Fa-U5w">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRc-1K-VPc">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="54"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eWa-mD-ghd">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="54"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atc-E3-n6V">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="54"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3I-RN-Shd">
+                                            <rect key="frame" x="24" y="17" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="2c7-tS-dRg"/>
+                                                <constraint firstAttribute="width" constant="20" id="Mp1-aN-qpB"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="ic_left_arrow"/>
+                                            <connections>
+                                                <action selector="barBackButtonTapped:" destination="-1" eventType="touchUpInside" id="AYP-8t-Bef"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="L3I-RN-Shd" secondAttribute="trailing" id="G7m-7l-Tvb"/>
+                                        <constraint firstItem="L3I-RN-Shd" firstAttribute="leading" secondItem="atc-E3-n6V" secondAttribute="leading" constant="24" id="Ld5-eb-QgJ"/>
+                                        <constraint firstItem="L3I-RN-Shd" firstAttribute="centerY" secondItem="atc-E3-n6V" secondAttribute="centerY" id="SoY-t3-yVg"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3i0-dd-SkH">
+                                    <rect key="frame" x="44" y="0.0" width="305" height="54"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdX-zF-QyF">
+                                            <rect key="frame" x="20" y="15" width="265" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="24" id="fg0-Zt-wfk"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="20"/>
+                                            <color key="textColor" name="Black300"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="pdX-zF-QyF" firstAttribute="leading" secondItem="3i0-dd-SkH" secondAttribute="leading" constant="20" id="FmO-9h-b2E"/>
+                                        <constraint firstAttribute="trailing" secondItem="pdX-zF-QyF" secondAttribute="trailing" constant="20" id="OlJ-gS-ilE"/>
+                                        <constraint firstItem="pdX-zF-QyF" firstAttribute="centerY" secondItem="3i0-dd-SkH" secondAttribute="centerY" id="iMi-rB-tnk"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uoh-IN-kOO">
+                                    <rect key="frame" x="349" y="0.0" width="44" height="54"/>
+                                    <subviews>
+                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dd9-RH-ub1">
+                                            <rect key="frame" x="0.0" y="17" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="NOz-Ld-6fu"/>
+                                                <constraint firstAttribute="width" constant="20" id="tRm-ny-9kR"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <connections>
+                                                <action selector="barDismissButtonTapped:" destination="-1" eventType="touchUpInside" id="bwv-G5-ngy"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="Dd9-RH-ub1" secondAttribute="trailing" constant="24" id="9uL-ui-XOi"/>
+                                        <constraint firstItem="Dd9-RH-ub1" firstAttribute="centerY" secondItem="Uoh-IN-kOO" secondAttribute="centerY" id="F3Y-dc-6Si"/>
+                                        <constraint firstItem="Dd9-RH-ub1" firstAttribute="leading" secondItem="Uoh-IN-kOO" secondAttribute="leading" id="o9r-dO-zGe"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" name="Background"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="eWa-mD-ghd" secondAttribute="bottom" id="Iw6-iR-VGa"/>
+                        <constraint firstAttribute="trailing" secondItem="eWa-mD-ghd" secondAttribute="trailing" id="ezf-PD-A0S"/>
+                        <constraint firstItem="eWa-mD-ghd" firstAttribute="leading" secondItem="SRc-1K-VPc" secondAttribute="leading" id="uNC-O7-bZG"/>
+                        <constraint firstItem="eWa-mD-ghd" firstAttribute="top" secondItem="SRc-1K-VPc" secondAttribute="top" id="y5B-cF-1Qb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="l26-MM-N1K"/>
+            <color key="backgroundColor" name="Background"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SRc-1K-VPc" secondAttribute="bottom" id="HCl-8g-xpo"/>
+                <constraint firstItem="SRc-1K-VPc" firstAttribute="trailing" secondItem="kcs-Fa-U5w" secondAttribute="trailing" id="P2c-jn-WPK"/>
+                <constraint firstItem="SRc-1K-VPc" firstAttribute="leading" secondItem="kcs-Fa-U5w" secondAttribute="leading" id="oky-IO-v8T"/>
+                <constraint firstItem="SRc-1K-VPc" firstAttribute="top" secondItem="kcs-Fa-U5w" secondAttribute="top" id="vtb-P2-Djv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="132" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_left_arrow" width="20" height="20"/>
+        <namedColor name="Background">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Black300">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
