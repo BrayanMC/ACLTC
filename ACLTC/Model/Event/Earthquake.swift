@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - EarthquakeResponse
+// MARK: - Earthquake
 struct Earthquake: Codable {
     let type: String
     let metadata: Metadata
@@ -28,15 +28,15 @@ struct Earthquake: Codable {
 
         // MARK: - Properties
         struct Properties: Codable {
-            let mag: Double
-            let place: String
-            let url, detail: String
-            let status: String
-            let tsunami, sig, time: Int
-            let net, code, ids, sources: String
-            let types: String
-            let rms: Double
-            let magType, type, title: String
+            let mag: Double?
+            let place: String?
+            let url, detail: String?
+            let status: String?
+            let tsunami, sig, time: Int?
+            let net, code, ids, sources: String?
+            let types: String?
+            let rms: Double?
+            let magType, type, title: String?
         }
     }
 

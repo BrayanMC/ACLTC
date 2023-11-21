@@ -9,12 +9,22 @@ def uipods
   pod 'SkeletonView'
 end
 
+def dataPods
+  pod 'KeychainAccess'
+end
+
+def allpods
+  pod 'GoogleMaps'
+end
+
 target 'ACLTC' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   networkingpods
   uipods
+  dataPods
+  allpods
   
   # Pods for ACLTC
 

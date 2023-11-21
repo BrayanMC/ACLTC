@@ -22,6 +22,7 @@ class SignInController: BaseViewController, Storyboarded {
         addGesturesToLabels()
         bind()
         hideKeyboardWhenTappedAround()
+        viewModel.validateSession()
     }
     
     private func initViews() {
@@ -38,6 +39,13 @@ class SignInController: BaseViewController, Storyboarded {
     }
     
     private func bind() {
+        viewModel.sessionEmail.bind { [weak self] result in
+            guard self != nil else { return }
+            guard let _result = result else { return }
+            self?.emailACLTextField.setTextValue(text: _result)
+            self?.emailACLTextField.state = .Filled
+        }
+        
         viewModel.loading.bind { [weak self] result in
             guard self != nil else { return }
             guard let _result = result else { return }

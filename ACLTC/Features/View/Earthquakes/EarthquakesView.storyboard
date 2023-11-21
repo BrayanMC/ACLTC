@@ -37,17 +37,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="593"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PY7-Xf-hou">
-                                                <rect key="frame" x="24" y="24" width="327" height="30"/>
+                                                <rect key="frame" x="24" y="24" width="46" height="40"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwl-Fe-ZTk">
-                                                        <rect key="frame" x="8" y="0.0" width="311" height="30"/>
+                                                        <rect key="frame" x="8" y="0.0" width="30" height="40"/>
                                                         <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="12"/>
                                                         <color key="textColor" name="Black300"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="LdK-2U-v7p"/>
+                                                    <constraint firstAttribute="height" constant="40" id="LdK-2U-v7p"/>
                                                     <constraint firstItem="lwl-Fe-ZTk" firstAttribute="top" secondItem="PY7-Xf-hou" secondAttribute="top" id="QS2-jJ-dzw"/>
                                                     <constraint firstAttribute="bottom" secondItem="lwl-Fe-ZTk" secondAttribute="bottom" id="UtY-CZ-Ucy"/>
                                                     <constraint firstItem="lwl-Fe-ZTk" firstAttribute="leading" secondItem="PY7-Xf-hou" secondAttribute="leading" constant="8" id="knP-f9-GOJ"/>
@@ -66,10 +66,10 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sr2-06-ZBA">
-                                                <rect key="frame" x="0.0" y="66" width="375" height="527"/>
+                                                <rect key="frame" x="0.0" y="76" width="375" height="517"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No se encuentran registrados terremotos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edw-mQ-OXV">
-                                                        <rect key="frame" x="62.5" y="144.5" width="250" height="38.5"/>
+                                                        <rect key="frame" x="62.5" y="139.5" width="250" height="38.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="8yF-5R-9Zg"/>
                                                             <constraint firstAttribute="width" constant="250" id="R26-76-kcx"/>
@@ -86,10 +86,10 @@
                                                 </constraints>
                                             </view>
                                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iME-MH-Wvs">
-                                                <rect key="frame" x="0.0" y="66" width="375" height="527"/>
+                                                <rect key="frame" x="0.0" y="76" width="375" height="517"/>
                                                 <subviews>
                                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="c9d-fU-LB5">
-                                                        <rect key="frame" x="0.0" y="16" width="375" height="511"/>
+                                                        <rect key="frame" x="0.0" y="16" width="375" height="501"/>
                                                         <color key="backgroundColor" name="Background"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" priority="999" constant="80" id="A3v-pN-dcU"/>
@@ -111,7 +111,7 @@
                                             <constraint firstItem="Sr2-06-ZBA" firstAttribute="top" secondItem="PY7-Xf-hou" secondAttribute="bottom" constant="12" id="JdL-mw-7dy"/>
                                             <constraint firstItem="iME-MH-Wvs" firstAttribute="top" secondItem="PY7-Xf-hou" secondAttribute="bottom" constant="12" id="Nii-dd-eHU"/>
                                             <constraint firstItem="iME-MH-Wvs" firstAttribute="leading" secondItem="yQU-CD-iK2" secondAttribute="leading" id="Ocw-7n-MLp"/>
-                                            <constraint firstAttribute="trailing" secondItem="PY7-Xf-hou" secondAttribute="trailing" constant="24" id="TJz-UG-dJH"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PY7-Xf-hou" secondAttribute="trailing" constant="24" id="TJz-UG-dJH"/>
                                             <constraint firstItem="PY7-Xf-hou" firstAttribute="leading" secondItem="yQU-CD-iK2" secondAttribute="leading" constant="24" id="VVV-Kb-0L7"/>
                                             <constraint firstItem="PY7-Xf-hou" firstAttribute="top" secondItem="yQU-CD-iK2" secondAttribute="top" constant="24" id="XrM-As-Mcp"/>
                                             <constraint firstAttribute="trailing" secondItem="Sr2-06-ZBA" secondAttribute="trailing" id="cz4-AK-SPx"/>

@@ -45,6 +45,14 @@ class Coordinator {
         navigationController.present(vc, animated: true)
     }
     
+    func goToDetail(viewData: DetailViewData) {
+        let vc = DetailController.instantiate(StoryboardIds.Detail)
+        vc.coordinator = self
+        vc.viewData = viewData
+        vc.modalPresentationStyle = .overCurrentContext
+        navigationController.present(vc, animated: true)
+    }
+    
     func showACLPopUp(viewData: ACLPopUpViewData) {
         let vc = ACLPopUpController.instantiate(StoryboardIds.ACLPopUp)
         vc.coordinator = self

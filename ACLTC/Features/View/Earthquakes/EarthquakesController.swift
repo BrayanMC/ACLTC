@@ -34,7 +34,7 @@ class EarthquakesController: BaseViewController, Storyboarded {
     
     private func initViews() {
         view.applyGradient()
-        aclNavigationBar.displayView(delegate: self, type: .regularView, title: .empty)
+        aclNavigationBar.displayView(delegate: self, type: .logOut, title: .empty)
         addGestures()
     }
     
@@ -111,10 +111,11 @@ class EarthquakesController: BaseViewController, Storyboarded {
 
 extension EarthquakesController: ACLNavigationBarProtocol {
     
-    func dismissButtonTapped() {
+    func rightButtonTapped() {
     }
     
-    func backButtonTapped() {
+    func leftButtonTapped() {
+        coordinator?.goToLogInView()
     }
 }
 
@@ -149,7 +150,14 @@ extension EarthquakesController: UITableViewDataSource {
             cell.setUpCell(feature)
             cell.onViewDidPress = { [weak self] () -> Void in
                 guard self != nil else { return }
-                debugPrint("cell view tapped ✅")
+                let viewData = DetailViewData(
+                    title: feature.properties.title ?? "",
+                    mag: feature.properties.mag ?? 0.00,
+                    place: feature.properties.place ?? "",
+                    depth: feature.geometry.coordinates[2],
+                    coordinates: [feature.geometry.coordinates[1], feature.geometry.coordinates[0]]
+                )
+                self?.coordinator?.goToDetail(viewData: viewData)
             }
             return cell
         }

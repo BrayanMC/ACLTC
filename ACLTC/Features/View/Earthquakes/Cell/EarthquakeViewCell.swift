@@ -41,9 +41,9 @@ class EarthquakeViewCell: UITableViewCell {
     func setUpCell(_ feature: Earthquake.Feature) {
         setLoadingView(showShimmer: false)
         titleLabel.text = feature.properties.title
-        magnitudeLabel.text = String(format: "DETAIL_MAGNITUDE_TEXT".localized, feature.properties.mag.formatWithTwoDecimals())
+        magnitudeLabel.text = String(format: "DETAIL_MAGNITUDE_TEXT".localized, feature.properties.mag?.formatWithTwoDecimals() ?? "")
         depthLabel.text = String(format: "DETAIL_DEPTH_TEXT".localized, feature.geometry.coordinates[2].formatWithTwoDecimals())
-        placeLabel.text = String(format: "DETAIL_PLACE_TEXT".localized, feature.properties.place)
+        placeLabel.text = String(format: "DETAIL_PLACE_TEXT".localized, feature.properties.place ?? "")
     }
     
     @objc func didDidPress(gesture: UILongPressGestureRecognizer) {

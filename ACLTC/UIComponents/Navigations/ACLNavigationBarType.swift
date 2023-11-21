@@ -9,4 +9,5 @@
 public enum ACLNavigationBarType: Int {
     case regularView = 1
     case fullScreenModal = 2
+    case logOut = 3
 }

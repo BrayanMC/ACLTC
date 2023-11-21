@@ -20,6 +20,15 @@
 		8440D6E02B0CA41300123BB2 /* SelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */; };
 		8440D6E12B0CA41300123BB2 /* SelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */; };
 		8440D6E22B0CA41300123BB2 /* SelectedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */; };
+		8440DAC82B0D15C00033A6E9 /* DetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440DAC72B0D15C00033A6E9 /* DetailView.storyboard */; };
+		8440DAC92B0D15C00033A6E9 /* DetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440DAC72B0D15C00033A6E9 /* DetailView.storyboard */; };
+		8440DACA2B0D15C00033A6E9 /* DetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8440DAC72B0D15C00033A6E9 /* DetailView.storyboard */; };
+		8440DACC2B0D15D20033A6E9 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440DACB2B0D15D20033A6E9 /* DetailController.swift */; };
+		8440DACD2B0D15D20033A6E9 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440DACB2B0D15D20033A6E9 /* DetailController.swift */; };
+		8440DACE2B0D15D20033A6E9 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440DACB2B0D15D20033A6E9 /* DetailController.swift */; };
+		84B7D56E2B0D18A200CEFE78 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */; };
+		84B7D56F2B0D18A200CEFE78 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */; };
+		84B7D5702B0D18A200CEFE78 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */; };
 		84C96B222B0BE01F00C8B876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B212B0BE01F00C8B876 /* AppDelegate.swift */; };
 		84C96B242B0BE01F00C8B876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */; };
 		84C96B2B2B0BE02100C8B876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C96B2A2B0BE02100C8B876 /* Assets.xcassets */; };
@@ -194,6 +203,24 @@
 		84C96C532B0C4CD600C8B876 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96C522B0C4CD600C8B876 /* SignInView.storyboard */; };
 		84C96C542B0C4CD600C8B876 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96C522B0C4CD600C8B876 /* SignInView.storyboard */; };
 		84C96C552B0C4CD600C8B876 /* SignInView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C96C522B0C4CD600C8B876 /* SignInView.storyboard */; };
+		84EB7B1D2B0CC7C900FC608D /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B1C2B0CC7C900FC608D /* LocalManager.swift */; };
+		84EB7B1E2B0CC7C900FC608D /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B1C2B0CC7C900FC608D /* LocalManager.swift */; };
+		84EB7B1F2B0CC7C900FC608D /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B1C2B0CC7C900FC608D /* LocalManager.swift */; };
+		84EB7B212B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B202B0CC94A00FC608D /* LocalRepositoryImpl.swift */; };
+		84EB7B222B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B202B0CC94A00FC608D /* LocalRepositoryImpl.swift */; };
+		84EB7B232B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B202B0CC94A00FC608D /* LocalRepositoryImpl.swift */; };
+		84EB7B252B0CC95000FC608D /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B242B0CC95000FC608D /* LocalRepository.swift */; };
+		84EB7B262B0CC95000FC608D /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B242B0CC95000FC608D /* LocalRepository.swift */; };
+		84EB7B272B0CC95000FC608D /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B242B0CC95000FC608D /* LocalRepository.swift */; };
+		84EB7B292B0CCA1400FC608D /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B282B0CCA1400FC608D /* LocalService.swift */; };
+		84EB7B2A2B0CCA1400FC608D /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B282B0CCA1400FC608D /* LocalService.swift */; };
+		84EB7B2B2B0CCA1400FC608D /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B282B0CCA1400FC608D /* LocalService.swift */; };
+		84EB7B2D2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B2C2B0CCA2E00FC608D /* LocalServiceImpl.swift */; };
+		84EB7B2E2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B2C2B0CCA2E00FC608D /* LocalServiceImpl.swift */; };
+		84EB7B2F2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B2C2B0CCA2E00FC608D /* LocalServiceImpl.swift */; };
+		84EB7B312B0CCB0200FC608D /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B302B0CCB0200FC608D /* UserDefaults+Extensions.swift */; };
+		84EB7B322B0CCB0200FC608D /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B302B0CCB0200FC608D /* UserDefaults+Extensions.swift */; };
+		84EB7B332B0CCB0200FC608D /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7B302B0CCB0200FC608D /* UserDefaults+Extensions.swift */; };
 		84F9D5892B0C52D6000798E7 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D5882B0C52D6000798E7 /* SignInController.swift */; };
 		84F9D58B2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */; };
 		84F9D58C2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */; };
@@ -309,6 +336,9 @@
 		8440D6D72B0C9FBE00123BB2 /* FiltersView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FiltersView.storyboard; sourceTree = "<group>"; };
 		8440D6DB2B0CA0A900123BB2 /* FilterViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewData.swift; sourceTree = "<group>"; };
 		8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedDate.swift; sourceTree = "<group>"; };
+		8440DAC72B0D15C00033A6E9 /* DetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailView.storyboard; sourceTree = "<group>"; };
+		8440DACB2B0D15D20033A6E9 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewData.swift; sourceTree = "<group>"; };
 		84C96B1E2B0BE01F00C8B876 /* ACLTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACLTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C96B212B0BE01F00C8B876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C96B232B0BE01F00C8B876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -375,6 +405,12 @@
 		84C96C492B0C3EB700C8B876 /* ACLTextFieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACLTextFieldState.swift; sourceTree = "<group>"; };
 		84C96C4D2B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ACLTextField+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
 		84C96C522B0C4CD600C8B876 /* SignInView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInView.storyboard; sourceTree = "<group>"; };
+		84EB7B1C2B0CC7C900FC608D /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
+		84EB7B202B0CC94A00FC608D /* LocalRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRepositoryImpl.swift; sourceTree = "<group>"; };
+		84EB7B242B0CC95000FC608D /* LocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalRepository.swift; sourceTree = "<group>"; };
+		84EB7B282B0CCA1400FC608D /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		84EB7B2C2B0CCA2E00FC608D /* LocalServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalServiceImpl.swift; sourceTree = "<group>"; };
+		84EB7B302B0CCB0200FC608D /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		84F9D5882B0C52D6000798E7 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
 		84F9D58A2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
 		84F9D58F2B0C5626000798E7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
@@ -452,6 +488,16 @@
 				8440D6DF2B0CA41300123BB2 /* SelectedDate.swift */,
 			);
 			path = Filters;
+			sourceTree = "<group>";
+		};
+		8440DAC62B0D15B30033A6E9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8440DAC72B0D15C00033A6E9 /* DetailView.storyboard */,
+				8440DACB2B0D15D20033A6E9 /* DetailController.swift */,
+				84B7D56D2B0D18A200CEFE78 /* DetailViewData.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		84C96B152B0BE01F00C8B876 = {
@@ -549,6 +595,7 @@
 				84F9D5C52B0C7991000798E7 /* Protocols */,
 				84F9D5CA2B0C7BA3000798E7 /* UserServiceImpl.swift */,
 				84F9D5F92B0C8789000798E7 /* EventServiceImpl.swift */,
+				84EB7B2C2B0CCA2E00FC608D /* LocalServiceImpl.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -559,6 +606,7 @@
 				84F9D5AF2B0C7751000798E7 /* Protocols */,
 				84F9D5B92B0C77D0000798E7 /* UserRepositoryImpl.swift */,
 				84F9D5F12B0C86D2000798E7 /* EventRepositoryImpl.swift */,
+				84EB7B202B0CC94A00FC608D /* LocalRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -615,6 +663,8 @@
 				84C96BBB2B0C206900C8B876 /* Common */,
 				84F9D5BD2B0C7855000798E7 /* NetworkManager.swift */,
 				84F9D5CE2B0C7D26000798E7 /* NetworkManagerProtocol.swift */,
+				84EB7B1C2B0CC7C900FC608D /* LocalManager.swift */,
+				84EB7B302B0CCB0200FC608D /* UserDefaults+Extensions.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -691,6 +741,7 @@
 		84C96BA02B0C164200C8B876 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8440DAC62B0D15B30033A6E9 /* Detail */,
 				8440D6D22B0C9F8700123BB2 /* Filters */,
 				84F9D5FD2B0C8948000798E7 /* Earthquakes */,
 				84C96C512B0C4C2000C8B876 /* SignIn */,
@@ -863,6 +914,7 @@
 			children = (
 				84F9D5B02B0C775D000798E7 /* UserRepository.swift */,
 				84F9D5E82B0C867A000798E7 /* EventRepository.swift */,
+				84EB7B242B0CC95000FC608D /* LocalRepository.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -872,6 +924,7 @@
 			children = (
 				84F9D5C62B0C79A9000798E7 /* UserService.swift */,
 				84F9D5F52B0C8762000798E7 /* EventService.swift */,
+				84EB7B282B0CCA1400FC608D /* LocalService.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -954,6 +1007,7 @@
 				84C96B1B2B0BE01F00C8B876 /* Frameworks */,
 				84C96B1C2B0BE01F00C8B876 /* Resources */,
 				30F80D06508813EDFD9D56A3 /* [CP] Embed Pods Frameworks */,
+				87CCFB867FCCE8EC4DF34CE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -992,6 +1046,7 @@
 				84C96B3B2B0BE02200C8B876 /* Frameworks */,
 				84C96B3C2B0BE02200C8B876 /* Resources */,
 				1B1D96ADDE6F5C8253B4A054 /* [CP] Embed Pods Frameworks */,
+				9B7D7324F55AEABCB9A3A6D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1063,6 +1118,7 @@
 				84C96B672B0C07E900C8B876 /* Nunito-ExtraBold.ttf in Resources */,
 				84C96BFF2B0C317700C8B876 /* ACLPopUp.storyboard in Resources */,
 				84C96C532B0C4CD600C8B876 /* SignInView.storyboard in Resources */,
+				8440DAC82B0D15C00033A6E9 /* DetailView.storyboard in Resources */,
 				84F9D60C2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */,
 				84C96BB82B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96B6D2B0C07E900C8B876 /* Nunito-Regular.ttf in Resources */,
@@ -1084,6 +1140,7 @@
 				84C96B6B2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
 				84C96B742B0C07E900C8B876 /* Nunito-Bold.ttf in Resources */,
 				84F9D60D2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */,
+				8440DAC92B0D15C00033A6E9 /* DetailView.storyboard in Resources */,
 				8440D6D92B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96BB92B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96C052B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
@@ -1106,6 +1163,7 @@
 				84C96B6C2B0C07E900C8B876 /* Nunito-Medium.ttf in Resources */,
 				84C96B752B0C07E900C8B876 /* Nunito-Bold.ttf in Resources */,
 				84F9D60E2B0C936B000798E7 /* EarthquakeViewCell.xib in Resources */,
+				8440DACA2B0D15C00033A6E9 /* DetailView.storyboard in Resources */,
 				8440D6DA2B0C9FBE00123BB2 /* FiltersView.storyboard in Resources */,
 				84C96BBA2B0C1CC800C8B876 /* SplashView.storyboard in Resources */,
 				84C96C062B0C31D700C8B876 /* ACLButtonCell.xib in Resources */,
@@ -1151,6 +1209,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		87CCFB867FCCE8EC4DF34CE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACLTC/Pods-ACLTC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9B02502BDD735A2EE1562593 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1171,6 +1246,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7D7324F55AEABCB9A3A6D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACLTC-ACLTCUITests/Pods-ACLTC-ACLTCUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F2EFB827A114B1E18FE7F003 /* [CP] Check Pods Manifest.lock */ = {
@@ -1226,9 +1318,11 @@
 			files = (
 				84C96B8F2B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
 				84F9D6042B0C89E6000798E7 /* EarthquakesController.swift in Sources */,
+				84B7D56E2B0D18A200CEFE78 /* DetailViewData.swift in Sources */,
 				84C96B8B2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C152B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
 				84F9D5F62B0C8762000798E7 /* EventService.swift in Sources */,
+				84EB7B312B0CCB0200FC608D /* UserDefaults+Extensions.swift in Sources */,
 				84F9D58B2B0C54B5000798E7 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				84F9D5902B0C5626000798E7 /* ProgressView.swift in Sources */,
 				84C96C462B0C3EA600C8B876 /* ACLKeyboardType.swift in Sources */,
@@ -1253,6 +1347,7 @@
 				84C96C4A2B0C3EB700C8B876 /* ACLTextFieldState.swift in Sources */,
 				84F9D5A12B0C65C0000798E7 /* ErrorResponse.swift in Sources */,
 				84F9D5CF2B0C7D26000798E7 /* NetworkManagerProtocol.swift in Sources */,
+				84EB7B292B0CCA1400FC608D /* LocalService.swift in Sources */,
 				84C96C0D2B0C336E00C8B876 /* ACLPopUpButtonType.swift in Sources */,
 				84F9D5FA2B0C8789000798E7 /* EventServiceImpl.swift in Sources */,
 				84C96BCF2B0C211700C8B876 /* ImageManager.swift in Sources */,
@@ -1267,6 +1362,7 @@
 				84C96BE02B0C21C000C8B876 /* ACLButton.swift in Sources */,
 				84C96B9B2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				84C96C2A2B0C3B4600C8B876 /* String+Extension.swift in Sources */,
+				84EB7B252B0CC95000FC608D /* LocalRepository.swift in Sources */,
 				84F9D6142B0C95E2000798E7 /* Double+Extension.swift in Sources */,
 				84C96B832B0C0A1600C8B876 /* Constants.swift in Sources */,
 				84F9D5B12B0C775D000798E7 /* UserRepository.swift in Sources */,
@@ -1277,6 +1373,7 @@
 				84F9D5D72B0C80F7000798E7 /* EnvironmentManager.swift in Sources */,
 				84F9D5892B0C52D6000798E7 /* SignInController.swift in Sources */,
 				84C96C212B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
+				84EB7B1D2B0CC7C900FC608D /* LocalManager.swift in Sources */,
 				84C96C3E2B0C3E7200C8B876 /* ACLTextFieldProtocol.swift in Sources */,
 				84F9D5E92B0C867A000798E7 /* EventRepository.swift in Sources */,
 				84C96C3A2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
@@ -1284,10 +1381,12 @@
 				84C96BE42B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
 				84C96BF52B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
 				84C96B932B0C0CB000C8B876 /* UtilsManager.swift in Sources */,
+				8440DACC2B0D15D20033A6E9 /* DetailController.swift in Sources */,
 				84F9D5BA2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
 				84F9D5A62B0C66E2000798E7 /* LogInParam.swift in Sources */,
 				84C96C2E2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
 				8440D6DC2B0CA0A900123BB2 /* FilterViewData.swift in Sources */,
+				84EB7B2D2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */,
 				84C96B972B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84F9D5CB2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				8440D6D42B0C9F9600123BB2 /* FiltersController.swift in Sources */,
@@ -1296,6 +1395,7 @@
 				84F9D5B62B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84C96BF92B0C29A500C8B876 /* ACLNavigationBarType.swift in Sources */,
 				84C96BC62B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
+				84EB7B212B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */,
 				84F9D6082B0C8C73000798E7 /* EarthquakeViewModel.swift in Sources */,
 				84C96C262B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96C192B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
@@ -1308,6 +1408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B7D56F2B0D18A200CEFE78 /* DetailViewData.swift in Sources */,
 				84C96C272B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96BD42B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96B392B0BE02100C8B876 /* ACLTCTests.swift in Sources */,
@@ -1327,7 +1428,9 @@
 				84C96BC72B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
 				84F9D59E2B0C6579000798E7 /* SignInViewModel.swift in Sources */,
 				84F9D5BB2B0C77D0000798E7 /* UserRepositoryImpl.swift in Sources */,
+				84EB7B2A2B0CCA1400FC608D /* LocalService.swift in Sources */,
 				84C96BE52B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
+				84EB7B2E2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */,
 				84F9D6152B0C95E2000798E7 /* Double+Extension.swift in Sources */,
 				84C96BCC2B0C211000C8B876 /* ColorManager.swift in Sources */,
 				84F9D5A72B0C66E2000798E7 /* LogInParam.swift in Sources */,
@@ -1347,6 +1450,7 @@
 				8440D6D52B0C9F9B00123BB2 /* FiltersController.swift in Sources */,
 				84F9D59B2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
 				84F9D5952B0C5636000798E7 /* ProgressFacade.swift in Sources */,
+				84EB7B222B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */,
 				84C96BD02B0C211700C8B876 /* ImageManager.swift in Sources */,
 				84F9D5C82B0C79A9000798E7 /* UserService.swift in Sources */,
 				84F9D5D42B0C80C6000798E7 /* Endpoint.swift in Sources */,
@@ -1357,9 +1461,11 @@
 				84C96C3B2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96C162B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
 				8440D6E12B0CA41300123BB2 /* SelectedDate.swift in Sources */,
+				8440DACD2B0D15D20033A6E9 /* DetailController.swift in Sources */,
 				84F9D5CC2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84C96B802B0C0A0400C8B876 /* StoryboardIds.swift in Sources */,
 				84C96B902B0C0C1900C8B876 /* Mapper+Response.swift in Sources */,
+				84EB7B322B0CCB0200FC608D /* UserDefaults+Extensions.swift in Sources */,
 				84C96BDC2B0C218400C8B876 /* UITableView+Extension.swift in Sources */,
 				84C96BD82B0C217200C8B876 /* UITextField+Extension.swift in Sources */,
 				84C96C2F2B0C3B6300C8B876 /* NSMutableAttributedString+Extension.swift in Sources */,
@@ -1367,6 +1473,8 @@
 				84F9D5B72B0C77B5000798E7 /* CustomError.swift in Sources */,
 				84F9D5E62B0C8638000798E7 /* Earthquake.swift in Sources */,
 				84F9D5EA2B0C867A000798E7 /* EventRepository.swift in Sources */,
+				84EB7B1E2B0CC7C900FC608D /* LocalManager.swift in Sources */,
+				84EB7B262B0CC95000FC608D /* LocalRepository.swift in Sources */,
 				84C96C1A2B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
 				84C96C122B0C338100C8B876 /* ACLPopUpAction.swift in Sources */,
 				84C96C1E2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
@@ -1390,12 +1498,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EB7B332B0CCB0200FC608D /* UserDefaults+Extensions.swift in Sources */,
 				84F9D5C02B0C7855000798E7 /* NetworkManager.swift in Sources */,
 				84F9D5FC2B0C8789000798E7 /* EventServiceImpl.swift in Sources */,
 				84C96B992B0C0CD500C8B876 /* ValidationsManager.swift in Sources */,
 				84C96B852B0C0A1600C8B876 /* Constants.swift in Sources */,
 				84C96C172B0C339C00C8B876 /* ACLPopUpType.swift in Sources */,
 				84C96C482B0C3EA600C8B876 /* ACLKeyboardType.swift in Sources */,
+				84B7D5702B0D18A200CEFE78 /* DetailViewData.swift in Sources */,
 				84C96B952B0C0CB000C8B876 /* UtilsManager.swift in Sources */,
 				84C96C502B0C3ECB00C8B876 /* ACLTextField+UITextFieldDelegate.swift in Sources */,
 				84F9D5962B0C5636000798E7 /* ProgressFacade.swift in Sources */,
@@ -1403,6 +1513,7 @@
 				84C96C0A2B0C31F300C8B876 /* ACLButtonCell.swift in Sources */,
 				84F9D5CD2B0C7BA3000798E7 /* UserServiceImpl.swift in Sources */,
 				84F9D5D52B0C80C6000798E7 /* Endpoint.swift in Sources */,
+				84EB7B232B0CC94A00FC608D /* LocalRepositoryImpl.swift in Sources */,
 				84C96B8D2B0C0A7200C8B876 /* Decorator+Request.swift in Sources */,
 				84C96C1F2B0C33DC00C8B876 /* ACLPopUpViewData.swift in Sources */,
 				84C96BA52B0C166300C8B876 /* BaseViewController.swift in Sources */,
@@ -1410,6 +1521,7 @@
 				8440D6D62B0C9F9B00123BB2 /* FiltersController.swift in Sources */,
 				84C96B9D2B0C0F0000C8B876 /* Coordinator.swift in Sources */,
 				8440D6DE2B0CA0A900123BB2 /* FilterViewData.swift in Sources */,
+				8440DACE2B0D15D20033A6E9 /* DetailController.swift in Sources */,
 				84C96BBF2B0C207000C8B876 /* NetworkMonitor.swift in Sources */,
 				84F9D5C92B0C79A9000798E7 /* UserService.swift in Sources */,
 				84C96C342B0C3B7C00C8B876 /* NSMutableString+Extension.swift in Sources */,
@@ -1417,6 +1529,7 @@
 				84C96C4C2B0C3EB700C8B876 /* ACLTextFieldState.swift in Sources */,
 				84C96C0F2B0C336E00C8B876 /* ACLPopUpButtonType.swift in Sources */,
 				84C96BD12B0C211700C8B876 /* ImageManager.swift in Sources */,
+				84EB7B1F2B0CC7C900FC608D /* LocalManager.swift in Sources */,
 				84F9D6122B0C9371000798E7 /* EarthquakeViewCell.swift in Sources */,
 				84C96BD52B0C214900C8B876 /* UIFont+Extension.swift in Sources */,
 				84C96BAE2B0C1A8300C8B876 /* UIView+Extension.swift in Sources */,
@@ -1434,6 +1547,7 @@
 				84F9D6062B0C89E6000798E7 /* EarthquakesController.swift in Sources */,
 				84F9D5922B0C5626000798E7 /* ProgressView.swift in Sources */,
 				84F9D5F42B0C86D2000798E7 /* EventRepositoryImpl.swift in Sources */,
+				84EB7B2F2B0CCA2E00FC608D /* LocalServiceImpl.swift in Sources */,
 				84F9D59C2B0C6575000798E7 /* BaseViewModel.swift in Sources */,
 				84F9D5DE2B0C8268000798E7 /* EarthquakeResponse.swift in Sources */,
 				84C96C232B0C343300C8B876 /* ACLPopUpController.swift in Sources */,
@@ -1441,6 +1555,7 @@
 				84C96C3C2B0C3DAC00C8B876 /* ACLTextField.swift in Sources */,
 				84C96BEA2B0C222A00C8B876 /* ACLButtonCodes.swift in Sources */,
 				84C96BE62B0C220F00C8B876 /* UILabel+Extension.swift in Sources */,
+				84EB7B272B0CC95000FC608D /* LocalRepository.swift in Sources */,
 				84F9D5EB2B0C867A000798E7 /* EventRepository.swift in Sources */,
 				84F9D5B32B0C775D000798E7 /* UserRepository.swift in Sources */,
 				84C96BF72B0C297D00C8B876 /* ACLNavigationBarProtocol.swift in Sources */,
@@ -1460,6 +1575,7 @@
 				84C96BC82B0C20EF00C8B876 /* FamilyFonts.swift in Sources */,
 				84C96C282B0C3A3E00C8B876 /* UICollectionView+Extension.swift in Sources */,
 				84C96C1B2B0C33AC00C8B876 /* ACLPopUpImageType.swift in Sources */,
+				84EB7B2B2B0CCA1400FC608D /* LocalService.swift in Sources */,
 				84C96BB62B0C1C5500C8B876 /* Storyboarded.swift in Sources */,
 				84C96BDD2B0C218400C8B876 /* UITableView+Extension.swift in Sources */,
 				84F9D5D92B0C80F7000798E7 /* EnvironmentManager.swift in Sources */,
@@ -1607,6 +1723,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5FPQ36H24;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACLTC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1640,6 +1757,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U5FPQ36H24;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACLTC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

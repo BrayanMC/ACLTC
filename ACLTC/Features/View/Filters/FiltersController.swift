@@ -37,7 +37,8 @@ class FiltersController: BaseViewController, Storyboarded {
     
     private func initViews() {
         startTimeACLTextField.displayView(id: 1, eventsDelegate: self, placeholder: "FILTERS_START_DATE".localized, isCounterHidden: true, textFieldType: .Date)
-        endTimeACLTextField.displayView(id: 2, eventsDelegate: self, placeholder: "FILTERS_END_DATE".localized, isCounterHidden: true, textFieldType: .Date)
+        endTimeACLTextField.displayView(id: 2, eventsDelegate: self, placeholder: "FILTERS_END_DATE".localized, isEnabled: false, isCounterHidden: true, textFieldType: .Date)
+        filterACLButton.disable()
     }
     
     private func addGestures() {
@@ -74,9 +75,11 @@ extension FiltersController: ACLTextFieldEventsProtocol {
     func editingDidEnd(id: Int, _ text: String) {
         switch id {
         case startTimeACLTextField.getId():
+            endTimeACLTextField.enable()
             endTimeACLTextField.setMinimumDate(startTimeACLTextField.getSelectedDate())
             break
         case endTimeACLTextField.getId():
+            filterACLButton.enable()
             break
         default:
             break

@@ -6,7 +6,7 @@
 //
 
 public protocol ACLNavigationBarProtocol: AnyObject {
-    func backButtonTapped()
-    func dismissButtonTapped()
+    func leftButtonTapped()
+    func rightButtonTapped()
 }
 

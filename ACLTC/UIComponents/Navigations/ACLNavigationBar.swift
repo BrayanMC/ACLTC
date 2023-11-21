@@ -57,21 +57,27 @@ public class ACLNavigationBar: UIView {
             barBackButton.isHidden = false
             break
         case .fullScreenModal:
-            barBackButton.setImage(ImageManager.shared.icLeftArrow, for: .normal)
+            barBackButton.setImage(ImageManager.shared.icClose, for: .normal)
             titleLabel.textColor = ColorManager.shared.black300
             barDismissButton.isHidden = false
+            break
+        case .logOut:
+            backgroundView.applyGradient()
+            barBackButton.setImage(ImageManager.shared.icLogOut, for: .normal)
+            titleLabel.textColor = ColorManager.shared.white
+            barBackButton.isHidden = false
             break
         }
         titleLabel.text = title
         titleLabel.setLineHeight(24.0, lineHeightMultiple: 0.91)
     }
     
-    @IBAction func barDismissButtonTapped(_ sender: Any) {
-        delegate?.dismissButtonTapped()
+    @IBAction func barRightButtonTapped(_ sender: Any) {
+        delegate?.rightButtonTapped()
     }
     
-    @IBAction func barBackButtonTapped(_ sender: Any) {
-        delegate?.backButtonTapped()
+    @IBAction func barLeftButtonTapped(_ sender: Any) {
+        delegate?.leftButtonTapped()
     }
 }
 

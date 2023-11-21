@@ -5,6 +5,8 @@
 //  Created by USUARIO on 20/11/23.
 //
 
+import Foundation
+
 enum LogInError: Error {
     case emptyEmail
     case invalidEmail
@@ -15,11 +17,19 @@ enum LogInError: Error {
 final class SignInViewModel: BaseViewModel {
     
     lazy var userService: UserService = UserServiceImpl()
+    lazy var localService: LocalService = LocalServiceImpl()
     
+    var sessionEmail: Observable<String> = Observable(nil)
     var logInSuccess: Observable<Bool> = Observable(nil)
     var logInError: Observable<LogInError> = Observable(nil)
     var isValidEmail: Observable<Bool> = Observable(nil)
     var isValidPassword: Observable<Bool> = Observable(nil)
+    
+    func validateSession() {
+        if (UserDefaults.standard.isLogged()) {
+            sessionEmail.value = localService.email()
+        }
+    }
     
     func validateEmail(_ email: String) {
         if email.isEmpty {
@@ -64,19 +74,11 @@ final class SignInViewModel: BaseViewModel {
             self?.loading.value = false
             switch result {
             case .success(let data):
+                UserDefaults.standard.setIsLoggedValue(true)
+                self?.localService.email(params.email)
                 self?.logInSuccess.value = data
             case .failure(let error):
                 switch error {
-                case .unAuthorized(let data):
-                    print("Error: \(String(describing: data))")
-                    self?.popUpError.value = self?.buildErrorPopUpViewData(
-                        title: "POP_UP_UNAUTHORIZED_ERROR_POP_UP_TITLE".localized,
-                        description: data?.message ?? "",
-                        buttonTitle: "POP_UP_GO_TO_REGISTER_BUTTON_TITLE".localized,
-                        completion: {
-                            // go to register
-                        }
-                    )
                 case .notConnectedToInternet(let data):
                     self?.loading.value = false
                     self?.popUpError.value = self?.buildErrorPopUpViewData(
