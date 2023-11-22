@@ -14,7 +14,7 @@
 
 "SIGN_IN_EMAIL_FIELD_PLACEHOLDER" = "Correo electrónico";
 "SIGN_IN_PASSWORD_FIELD_PLACEHOLDER" = "Contraseña";
-"SIGN_IN_SIGN_IN_HERE_TEXT" = "¿Aún no usas Cambix? Regístrate aquí";
+"SIGN_IN_SIGN_IN_HERE_TEXT" = "¿Aún no usas EQ APP? Regístrate aquí";
 "SIGN_IN_EMAIL_FIELD_EMPTY" = "Ingresa un correo electrónico";
 "SIGN_IN_EMAIL_FIELD_INCORRECT_FORMAT" = "Ingresa un correo electrónico correcto";
 "SIGN_IN_PASSWORD_FIELD_EMPTY" = "Completa la contraseña";

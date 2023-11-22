@@ -18,7 +18,7 @@ class UserRepositoryImpl: UserRepository {
             }
         } else {
             let errorResponse = ErrorResponse(
-                message: "Los datos ingresados no están registrados en Cambix. Te invitamos a registrarte.",
+                message: "Los datos ingresados no están registrados en EQ APP. Te invitamos a registrarte.",
                 debugMessage: "",
                 timestamp: "",
                 code: "",
