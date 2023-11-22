@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         NetworkMonitor.shared.startMonitoring()
-        GMSServices.provideAPIKey("AIzaSyAvrFTHVoEiNgbbISEu_CcJp_zo_0tyQ5M")
+        GMSServices.provideAPIKey("AIzaSyBjwDMdSQQNZT8vtjgWhqMn18_lZBAMJiM")
         return true
     }
 

@@ -43,7 +43,7 @@ class DetailController: BaseViewController, Storyboarded {
     
     private func setUpMap(latitude: Double, longitude: Double) {
         let location = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-        let camera = GMSCameraPosition(target: location, zoom: 6, bearing: 0, viewingAngle: 0)
+        let camera = GMSCameraPosition(target: location, zoom: 10, bearing: 0, viewingAngle: 0)
         mapView = GMSMapView.map(withFrame: contentMapView.bounds, camera: camera)
         if let _mapView = mapView {
             contentMapView.addSubview(_mapView)
