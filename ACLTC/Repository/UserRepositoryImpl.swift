@@ -12,6 +12,8 @@ class UserRepositoryImpl: UserRepository {
     func logIn(_ params: LogInParam, completion: @escaping (Result<Bool, CustomError>) -> Void) {
         if (params.email == TestLogIn.email && params.password == TestLogIn.password) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                debugPrint("you have logged in successfully ✅")
+                debugPrint(params.toDictionary())
                 completion(.success(true))
             }
         } else {
@@ -28,6 +30,8 @@ class UserRepositoryImpl: UserRepository {
     
     func signUp(_ params: SignUpParam, completion: @escaping (Result<Bool, CustomError>) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            debugPrint("has been successfully registered ✅")
+            debugPrint(params.toDictionary())
             completion(.success(true))
         }
     }
